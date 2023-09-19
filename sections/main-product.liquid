@@ -62,7 +62,16 @@
     endif
     assign sizes = '(min-width: 1000px) ' | append: main_width | append: 'px, 100vw'
 
+    assign brand = shop.metaobjects.brand.values
+    for param in brand
+      assign brand_data = param
+    endfor
 -%}
+
+<script>
+  console.log({{ brand_data | json }});
+  console.log('{{ brand_data.brand_name }}')
+</script>
 
 {%- capture header -%}
     <header {{ title_block.shopify_attributes }} class="class-x">
@@ -205,13 +214,15 @@
                 </li>
             {%- endfor -%}
         </ul>
-        {%- if has_pros_and_cons == false and has_specs == false -%}
+        {%- if has_pros_and_cons == false -%}
             {%- if section.settings.show_product_description and product.description != empty -%}
                 <footer class="m6tb static desktop-only">
                     <nav>
                       <ul id="product-tabs-ul" class="product-tabs">
                           <li class="tab-active product-tab"><a id="tab-info-tab" onclick="changeProductTab('tab-info-tab')" data-id="tab-info">Description</a></li>
-                          <li class="product-tab"><a id="tab-specification-tab" onclick="changeProductTab('tab-specification-tab')" data-id="tab-specification">Specification</a></li>
+                          {%- if has_specs == true -%}
+                            <li class="product-tab"><a id="tab-specification-tab" onclick="changeProductTab('tab-specification-tab')" data-id="tab-specification">Specifications</a></li>
+                          {%- endif -%}
                       </ul>
                     </nav>
                     <div>
@@ -226,10 +237,22 @@
                                 {{ product.description }}
                             {%- endif -%}
                         </div>
+                        {%- if has_specs == true -%}
                         <div id="tab-specification" class="product-tab-content">
-                          <h2 class="mobile-hide">Specification</h2>
-                          {{ product.description }}
-                      </div>
+                          <h2 class="mobile-hide">Specifications</h2>
+                          <ul class="l4if">
+                            {%- for spec in specs -%}
+                                {%- assign spec_name = spec | split: ':' | first | strip -%}
+                                {%- assign spec_value = spec | split: ':' | last | strip -%}
+                                {%- if spec_name != empty -%}
+                                    <li {% if specs.size > 9 and forloop.index > 9 %}class="hidden"{% endif %}>
+                                        <span>{{ spec_name | remove: '<p>' | remove: '</p>' }}:</span> {{ spec_value | remove: '<p>' | remove: '</p>' }}
+                                    </li>
+                                {%- endif -%}
+                            {%- endfor -%}
+                          </ul>
+                        </div>
+                        {%- endif -%}
                     </div>
                 </footer>
             {%- endif %}
