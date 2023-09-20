@@ -24159,7 +24159,15 @@ table tr:first-child th:last-child { border-top-right-radius: var(--b2r); }
 	}
 }
 
-@media only screen and (max-width: 340px) {}
+@media only screen and (max-width: 340px) {
+	.mobile-only {
+		display: block !important;
+	}
+}
+
+.mobile-only {
+	display: none;
+}
 
 @media only screen and (min-width: 340px) {
 	.product-tabs {
@@ -24182,5 +24190,9 @@ table tr:first-child th:last-child { border-top-right-radius: var(--b2r); }
 		background-color: #FFFFFF !important;
 		color: var(--secondary_bg);
 		font-weight: var(--main_fw_strong);
+	}
+
+	.product-tab>a {
+		font-size: 16px;
 	}
 }
