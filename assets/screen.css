@@ -5701,8 +5701,6 @@ h6+.m6bx {
 	background: var(--sand);
 }
 
-/*SAND*/
-
 .m6tb>nav ul {
 	list-style: none;
 	margin: 0;
@@ -24163,6 +24161,10 @@ table tr:first-child th:last-child { border-top-right-radius: var(--b2r); }
 	.mobile-only {
 		display: block !important;
 	}
+
+	.brand-info {
+		gap: 30px;
+	}
 }
 
 .mobile-only {
@@ -24170,6 +24172,12 @@ table tr:first-child th:last-child { border-top-right-radius: var(--b2r); }
 }
 
 @media only screen and (min-width: 340px) {
+	.brand-info {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
 	.product-tabs {
 		background-color: var(--light_bg);
 	}

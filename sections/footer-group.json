@@ -1,1 +1,61 @@
-{"type":"footer","name":"t:static_sections.footer.name","sections":{"footer":{"type":"footer","blocks":{"a1db3932-33b3-4c81-a28c-33e571fc6a2a":{"type":"text","settings":{"title":"Contact Us","text":"<p>Feel free to contact us using the email provided.<\/p><p><a href=\"mailto:contact@onlineoutletuk.com\" target=\"_blank\" title=\"mailto:contact@onlineoutletuk.com\"><strong>contact@onlineoutletuk.com<\/strong><\/a><\/p><p><a href=\"\/pages\/about\" title=\"About\"><strong>About Us<\/strong><\/a><\/p><p><a href=\"\/blogs\/news\" title=\"News\"><strong>Blogs<\/strong><\/a><\/p>"}},"footer-block-socials-newsletter-1":{"type":"socials_newsletter","settings":{"title":"Follow us","show_socials":true,"enable_follow_on_shop":false,"show_newsletter":true,"footer_button_color":"accent","enable_newsletter_terms_checkbox":false,"newsletter_terms_text":""}},"c2a25765-6761-4fb4-b694-7b5dcd86e2a3":{"type":"text","settings":{"title":"","text":"<p><a href=\"\/collections\" title=\"All collections\"><strong>All Products<\/strong><\/a><br\/><\/p><p><a href=\"\/pages\/faq\" title=\"FAQ\"><strong>Frequently Asked Questions<\/strong><\/a><\/p><p><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Policy<\/strong><\/a><\/p><p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\"><strong>Shipping Policy<\/strong><\/a><\/p><p><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\"><strong>Refund Policy<\/strong><\/a><\/p><p><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\"><strong>Terms of Service<\/strong><\/a><\/p>"}}},"block_order":["a1db3932-33b3-4c81-a28c-33e571fc6a2a","footer-block-socials-newsletter-1","c2a25765-6761-4fb4-b694-7b5dcd86e2a3"],"settings":{"footer_color":"light","bottom_color":"black","bottom_img_width":50,"bottom_img_link":"","bottom_svg_img":"","enable_country_selector":false,"enable_language_selector":false,"enable_follow_on_shop":false,"show_payment_methods":true,"spacing_desktop":0,"spacing_mobile":0}}},"order":["footer"]}
+{
+  "type": "footer",
+  "name": "t:static_sections.footer.name",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "a1db3932-33b3-4c81-a28c-33e571fc6a2a": {
+          "type": "text",
+          "settings": {
+            "title": "Contact Us",
+            "text": "<p>Feel free to contact us using the email below:<\/p><p><a href=\"mailto:contact@onlineoutletuk.com\" target=\"_blank\" title=\"mailto:contact@onlineoutletuk.com\">contact@onlineoutletuk.com<\/a><\/p><h4>More<\/h4><p><a href=\"\/pages\/affiliate-program\" target=\"_blank\" title=\"Affiliate Program\">Become an Affiliate<\/a><\/p><p><a href=\"\/pages\/about\" target=\"_blank\" title=\"About\">About Us<\/a><\/p>"
+          }
+        },
+        "footer-block-socials-newsletter-1": {
+          "type": "socials_newsletter",
+          "settings": {
+            "title": "Follow us",
+            "show_socials": true,
+            "enable_follow_on_shop": false,
+            "show_newsletter": true,
+            "footer_button_color": "accent",
+            "enable_newsletter_terms_checkbox": false,
+            "newsletter_terms_text": ""
+          }
+        },
+        "c2a25765-6761-4fb4-b694-7b5dcd86e2a3": {
+          "type": "text",
+          "settings": {
+            "title": "Quick Links",
+            "text": "<p><a href=\"\/collections\" title=\"All collections\">All Products<\/a><\/p><p><a href=\"\/pages\/faq\" title=\"FAQ\">Frequently Asked Questions<\/a><\/p><p><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><\/p><p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping Policy<\/a><\/p><p><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Refund Policy<\/a><\/p><p><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a1db3932-33b3-4c81-a28c-33e571fc6a2a",
+        "footer-block-socials-newsletter-1",
+        "c2a25765-6761-4fb4-b694-7b5dcd86e2a3"
+      ],
+      "custom_css": [
+        "footer {margin-top: 0px !important;}"
+      ],
+      "settings": {
+        "footer_color": "light",
+        "bottom_color": "black",
+        "bottom_img_width": 50,
+        "bottom_img_link": "",
+        "bottom_svg_img": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_follow_on_shop": false,
+        "show_payment_methods": true,
+        "spacing_desktop": 0,
+        "spacing_mobile": 0
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
