@@ -24167,7 +24167,8 @@ table tr:first-child th:last-child { border-top-right-radius: var(--b2r); }
 	}
 
 	.brand-info-logo {
-		padding: 10px 10px;
+		padding: 10px 10px !important;
+		width: 100% !important;
 	}
 }
 
