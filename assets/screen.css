@@ -24165,6 +24165,10 @@ table tr:first-child th:last-child { border-top-right-radius: var(--b2r); }
 	.brand-info {
 		gap: 30px;
 	}
+
+	.brand-info-logo {
+		padding: 10px 10px;
+	}
 }
 
 .mobile-only {
@@ -24176,6 +24180,11 @@ table tr:first-child th:last-child { border-top-right-radius: var(--b2r); }
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
+	}
+
+	.brand-info-logo {
+		padding: 20px 0;
+		width: 50%;
 	}
 
 	.product-tabs {
