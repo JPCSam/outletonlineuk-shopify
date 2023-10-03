@@ -26,7 +26,7 @@
         "template--20133140267325__ccc0461f-c8d9-4f52-8e95-eedeb532ced4-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mainsplash_v2.png",
+            "image": "shopify:\/\/shop_images\/furniture_sale_splash.webp",
             "layout": "background",
             "overlay_opacity": 0,
             "color_palette": "dark",
@@ -36,7 +36,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "shopify:\/\/pages\/furniture-home",
+            "link_url": "shopify:\/\/collections\/outdoor-furniture",
             "show_link": false,
             "image_mobile": "shopify:\/\/shop_images\/splash_thing_mobile.png",
             "title_size_mobile": "mobile-size-18"
