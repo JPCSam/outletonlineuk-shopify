@@ -41,6 +41,8 @@
     "button_style": "plain",
     "button_rounded": "slightly-rounded",
     "button_font": "body",
+    "enable_cart_drawer_undo_remove": false,
+    "enable_cart_drawer_upsell_complementary": false,
     "sale_label_price": "percentage",
     "show_stock_label": false,
     "stock_label_qty": 2,
