@@ -24,7 +24,7 @@
         "header-block-usp-1": {
           "type": "usp",
           "settings": {
-            "usp": "<p>We accept <strong>Klarna<\/strong>, <strong>Clearpay<\/strong>, and <strong>Paypal<\/strong><\/p>"
+            "usp": "<p>Accepted payment methods include <strong>Klarna<\/strong>, <strong>Clearpay<\/strong>, and <strong>Paypal<\/strong><\/p>"
           }
         },
         "header-block-usp-2": {
