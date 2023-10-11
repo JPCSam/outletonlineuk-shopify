@@ -9,7 +9,7 @@
           "type": "text",
           "settings": {
             "title": "Contact Us",
-            "text": "<p>Feel free to contact us using the email below:<\/p><p><a href=\"mailto:contact@onlineoutletuk.com\" target=\"_blank\" title=\"mailto:contact@onlineoutletuk.com\">contact@onlineoutletuk.com<\/a><\/p><h4>More<\/h4><p><a href=\"\/pages\/affiliate-program\" target=\"_blank\" title=\"Affiliate Program\">Become an Affiliate<\/a><\/p><p><a href=\"\/pages\/about\" target=\"_blank\" title=\"About\">About Us<\/a><\/p>"
+            "text": "<p>Feel free to contact us using the email below:<\/p><p><a href=\"mailto:contact@onlineoutletuk.com\" target=\"_blank\" title=\"mailto:contact@onlineoutletuk.com\">contact@onlineoutletuk.com<\/a><\/p><h4>More<\/h4><p><a href=\"\/pages\/about\" target=\"_blank\" title=\"About\">About Us<\/a><\/p><p><a href=\"\/pages\/affiliate-program\" target=\"_blank\" title=\"Affiliate Program\">Become an Affiliate<\/a><\/p><p><a href=\"\/pages\/seller-application\" target=\"_blank\" title=\"Seller Application\">Become A Seller<\/a><\/p>"
           }
         },
         "footer-block-socials-newsletter-1": {
@@ -28,7 +28,7 @@
           "type": "text",
           "settings": {
             "title": "Quick Links",
-            "text": "<p><a href=\"\/collections\" title=\"All collections\">All Products<\/a><\/p><p><a href=\"\/pages\/faq\" title=\"FAQ\">Frequently Asked Questions<\/a><\/p><p><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><\/p><p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping Policy<\/a><\/p><p><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Refund Policy<\/a><\/p><p><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a><\/p>"
+            "text": "<p><a href=\"\/collections\" title=\"All collections\">All Products<\/a><\/p><p><a href=\"\/pages\/faq\" title=\"FAQ\">Frequently Asked Questions<\/a><\/p><p><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><\/p><p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping Policy<\/a><\/p><p><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Refund Policy<\/a><\/p><p><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a><\/p><p><a href=\"\/pages\/modern-slavery-policy\" target=\"_blank\" title=\"Modern Slavery Policy\">Modern Slavery Policy<\/a><\/p>"
           }
         }
       },
