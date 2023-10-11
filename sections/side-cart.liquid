@@ -29,6 +29,7 @@
 {%- if cart.item_count == 0 -%}
   <p><span class="empty">{{ settings.empty_cart_text | remove: '</p>' | remove: '<p>' }}</span></p>
 {%- else-%}
+  <div class="order-value-booster-block" id="clnlli34e1159218trnsx1bwt9"></div>
   <p><a href="./" class="strong m6pn-close"><i aria-hidden="true" class="icon-chevron-left"></i> {{ 'cart.continue_shopping' | t }}</a></p>
 {% endif %}
 <ul class="l4ca compact"{% if settings.enable_cart_drawer_undo_remove and settings.enable_cart_drawer_undo_remove_delay %} data-delay="{{ settings.cart_drawer_undo_remove_delay | times: 1000 }}"{% endif %}>
