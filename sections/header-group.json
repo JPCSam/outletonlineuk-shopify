@@ -24,11 +24,12 @@
         "header-block-usp-1": {
           "type": "usp",
           "settings": {
-            "usp": "<p>Klarna payment supported<\/p>"
+            "usp": "<p>We accept <strong>Klarna<\/strong>, <strong>Clearpay<\/strong>, and <strong>Paypal<\/strong><\/p>"
           }
         },
         "header-block-usp-2": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "usp": "<p>Clearpay payment supported<\/p>"
           }
