@@ -210,5 +210,7 @@
     {%- for payment_method in shop.enabled_payment_types -%}
       <li>{{ payment_method | payment_type_svg_tag }}</li>
     {%- endfor -%}
+    <li>{{ 'klarna' | payment_type_svg_tag }}</li>
+    <li>{{ 'afterpay' | payment_type_svg_tag }}</li>
   </ul>
 {%- endif -%}
