@@ -133,8 +133,8 @@
     </li>
   {%- endfor -%}
 </ul>
+<div class="order-value-booster-block" id="clnlm8wtp2212618trxpko3o5e"></div>
 {%- if cart.item_count > 0 -%}
-  <div class="order-value-booster-block" id="clnlm8wtp2212618trxpko3o5e"></div>
   {%- if settings.enable_cart_drawer_upsell_complementary or settings.enable_cart_drawer_upsell_related -%}
     <div class="product-recommendations hidden cart-upsell"
          data-product-id="{% for line_item in cart.items %}{{ line_item.product.id }}{% unless forloop.last %},{% endunless %}{% endfor %}"
