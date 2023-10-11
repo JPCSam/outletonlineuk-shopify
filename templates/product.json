@@ -111,6 +111,12 @@
             "product": "{{product}}"
           }
         },
+        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4": {
+          "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app-block\/4125375e-37c8-4137-949d-c4e1a3aac572",
+          "settings": {
+            "id": "clnlli34e1159218trnsx1bwt9"
+          }
+        },
         "e9431daf-3b99-40f6-89ff-dab164cda2ff": {
           "type": "spacer",
           "settings": {
@@ -156,23 +162,6 @@
             "products_show_price": true,
             "products_show_stock": false
           }
-        },
-        "2dc90774-6374-4657-a18a-814058f58bad": {
-          "type": "content",
-          "settings": {
-            "enable_tab": false,
-            "collapse": false,
-            "title": "",
-            "icon": "none",
-            "header_image_svg": "",
-            "header_image_width": 25,
-            "text": "{{ product.metafields.custom.extra_info_1 | metafield_tag }}",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": false
-          }
         }
       },
       "block_order": [
@@ -185,11 +174,11 @@
         "buy_button",
         "0ec6a7b6-de00-4b41-8c5c-a08bca2346cb",
         "581186a8-da3c-4bd6-a0aa-dc2de5b276d5",
+        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4",
         "e9431daf-3b99-40f6-89ff-dab164cda2ff",
         "ee5e9f1c-a80a-4244-950f-03806a509775",
         "59ce3a23-b9ef-4d31-9871-f930e53b6dad",
-        "2dbf3d1d-f177-4de8-90a2-25146693d8e3",
-        "2dc90774-6374-4657-a18a-814058f58bad"
+        "2dbf3d1d-f177-4de8-90a2-25146693d8e3"
       ],
       "settings": {
         "show_thumbs_desktop": true,
