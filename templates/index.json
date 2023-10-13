@@ -124,47 +124,6 @@
       "settings": {
       }
     },
-    "6bb26465-2a59-4697-8e7d-471aa3e4096d": {
-      "type": "section-gallery",
-      "blocks": {
-        "template--19594624958781__6bb26465-2a59-4697-8e7d-471aa3e4096d-16891752340f402158-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/abstract_bg_smaller.jpg",
-            "overlay_opacity": 0,
-            "color_palette": "black",
-            "button_color_palette": "accent",
-            "text_position": "text-center",
-            "title_size": "h1",
-            "title": "BRAND NEW STOCK UPDATE",
-            "text": "<p>We've recently added a MASSIVE collection of furniture, from chairs to cabinets.<\/p>",
-            "link_text": "Shop Furniture Now",
-            "link_url": "shopify:\/\/pages\/furniture-home",
-            "show_link": false,
-            "title_size_mobile": "mobile-size-18"
-          }
-        }
-      },
-      "block_order": [
-        "template--19594624958781__6bb26465-2a59-4697-8e7d-471aa3e4096d-16891752340f402158-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "items_layout": "playful-grid",
-        "items_width": 2,
-        "height": "size-s",
-        "width": "wide",
-        "space_between": 0,
-        "image_zoom": false,
-        "image_move": false,
-        "show_content_on_hover": false,
-        "content_on_hover_color_palette": "dark",
-        "layout_mobile": "rows",
-        "mobile_height": "size-s",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
     "f2b1748b-8db7-40ac-87a6-33926df2823e": {
       "type": "section-gallery",
       "blocks": {
@@ -182,8 +141,8 @@
             "link_text": "",
             "link_url": "shopify:\/\/collections\/vegan",
             "show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/vegan-collection-splash-mob.webp",
-            "title_size_mobile": "mobile-size-18"
+            "image_mobile": "shopify:\/\/shop_images\/vegan-collection-splash-mob-2.webp",
+            "title_size_mobile": "mobile-size-16"
           }
         }
       },
@@ -201,7 +160,7 @@
         "show_content_on_hover": false,
         "content_on_hover_color_palette": "dark",
         "layout_mobile": "rows",
-        "mobile_height": "size-s",
+        "mobile_height": "size-m",
         "spacing_desktop": 50,
         "spacing_mobile": 30
       }
@@ -626,7 +585,6 @@
   "order": [
     "ccc0461f-c8d9-4f52-8e95-eedeb532ced4",
     "16953748228ac94bc5",
-    "6bb26465-2a59-4697-8e7d-471aa3e4096d",
     "f2b1748b-8db7-40ac-87a6-33926df2823e",
     "1660291161fe2caafb",
     "16602912025c583cc8",
