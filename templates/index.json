@@ -103,6 +103,7 @@
       "blocks": {
         "69e6e51d-bc6c-4733-8840-28bc33d292be": {
           "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "disabled": true,
           "settings": {
             "data_key": "top-strip-promotion-auto-size",
             "locale_option": "geolocation",
@@ -154,6 +155,46 @@
         "height": "size-s",
         "width": "wide",
         "space_between": 0,
+        "image_zoom": false,
+        "image_move": false,
+        "show_content_on_hover": false,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "f2b1748b-8db7-40ac-87a6-33926df2823e": {
+      "type": "section-gallery",
+      "blocks": {
+        "9fc0e35a-f92e-4d1d-a5ea-98578f761326": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vegan-collection-splash_e8c4f58e-b158-45f2-a2ce-9dd3be689b39.webp",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "button_color_palette": "accent",
+            "text_position": "text-start",
+            "title_size": "h1",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/weekly-offers",
+            "show_link": false,
+            "title_size_mobile": "mobile-size-18"
+          }
+        }
+      },
+      "block_order": [
+        "9fc0e35a-f92e-4d1d-a5ea-98578f761326"
+      ],
+      "settings": {
+        "items_layout": "playful-grid",
+        "items_width": 2,
+        "height": "size-s",
+        "width": "boxed",
+        "space_between": 16,
         "image_zoom": false,
         "image_move": false,
         "show_content_on_hover": false,
@@ -585,6 +626,7 @@
     "ccc0461f-c8d9-4f52-8e95-eedeb532ced4",
     "16953748228ac94bc5",
     "6bb26465-2a59-4697-8e7d-471aa3e4096d",
+    "f2b1748b-8db7-40ac-87a6-33926df2823e",
     "1660291161fe2caafb",
     "16602912025c583cc8",
     "1660291186859914cb",
