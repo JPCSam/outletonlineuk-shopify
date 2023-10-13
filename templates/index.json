@@ -179,7 +179,7 @@
             "title_size": "h1",
             "title": "Weekly Offers",
             "text": "<p>Need a <strong>great <\/strong>value deal?<\/p>",
-            "link_text": "See Our Offers",
+            "link_text": "Find Deals",
             "link_url": "shopify:\/\/collections\/weekly-offers",
             "show_link": false,
             "title_size_mobile": "mobile-size-18"
