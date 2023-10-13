@@ -177,9 +177,9 @@
             "button_color_palette": "accent",
             "text_position": "text-start",
             "title_size": "h1",
-            "title": "Best value offers",
-            "text": "<p>Need a good value deal?<\/p>",
-            "link_text": "See Offers",
+            "title": "Weekly Offers",
+            "text": "<p>Need a <strong>great <\/strong>value deal?<\/p>",
+            "link_text": "See Our Offers",
             "link_url": "shopify:\/\/collections\/weekly-offers",
             "show_link": false,
             "title_size_mobile": "mobile-size-18"
