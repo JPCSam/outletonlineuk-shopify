@@ -182,6 +182,7 @@
             "link_text": "",
             "link_url": "shopify:\/\/collections\/vegan",
             "show_link": false,
+            "image_mobile": "shopify:\/\/shop_images\/vegan-collection-splash-mob.webp",
             "title_size_mobile": "mobile-size-18"
           }
         }
