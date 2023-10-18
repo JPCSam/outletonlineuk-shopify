@@ -210,10 +210,22 @@
               "tramontina-verona-lounge-chair-with-arms"
             ]
           }
+        },
+        "60178d24-44a2-4520-9d5b-4bd717536ae0": {
+          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+            "bundle_ids": "af1c1a95-3917-4eb5-992b-fe3c3601545a",
+            "products": [
+              "tramontina-verona-coffee-table-2-seater-bench",
+              "tramontina-verona-teak-wood-2-seater-bench-with-arms",
+              "tramontina-verona-lounge-chair-with-arms"
+            ]
+          }
         }
       },
       "block_order": [
-        "4ed76058-e65e-4710-ae5b-fc67034feab5"
+        "4ed76058-e65e-4710-ae5b-fc67034feab5",
+        "60178d24-44a2-4520-9d5b-4bd717536ae0"
       ],
       "settings": {
       }
