@@ -1,0 +1,252 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_mobile": true
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "b9b5e10d-087a-40ca-be12-59dad7cecc65": {
+          "type": "codes",
+          "settings": {
+            "show_sku": true,
+            "show_barcode": true
+          }
+        },
+        "55a99cc6-aec8-4ab1-9647-294068d2bc8a": {
+          "type": "short_description",
+          "settings": {
+            "show_read_more": true
+          }
+        },
+        "c7259cb9-7235-4028-b6df-3a68077fed80": {
+          "type": "title",
+          "settings": {
+            "layout": "title-top",
+            "title_size": "h1",
+            "show_vendor_brand": false,
+            "show_vendor_name": false,
+            "show_product_rating": false,
+            "share_whatsapp": true,
+            "share_facebook": true,
+            "share_twitter": true,
+            "share_pinterest": true,
+            "share_messenger": true,
+            "share_email": true,
+            "layout_mobile": "title-top"
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax": true
+          }
+        },
+        "variant_selection": {
+          "type": "variant_selection",
+          "settings": {
+            "selection_type": "dropdown",
+            "options": true,
+            "show_variant_images": true,
+            "show_unavailable_variants": true,
+            "enable_selling_plans": true
+          }
+        },
+        "buy_button": {
+          "type": "buy_button",
+          "settings": {
+            "show_amount_selection": true,
+            "show_dynamic_buybutton": true,
+            "preorder": false,
+            "preorder_button_text": "Pre-order",
+            "preorder_label": "",
+            "preorder_label_color_palette": "light_2",
+            "preorder_show_dynamic_buybutton": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "0ec6a7b6-de00-4b41-8c5c-a08bca2346cb": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
+        "581186a8-da3c-4bd6-a0aa-dc2de5b276d5": {
+          "type": "shopify:\/\/apps\/clearpay-on-site-messaging\/blocks\/payments-messaging\/5d763983-d3e6-4888-9966-4e1170b26ae9",
+          "settings": {
+            "text_align": "left",
+            "margin_top": 16,
+            "margin_bottom": 16,
+            "color": "",
+            "size": "sm",
+            "intro_text": "Pay",
+            "show_interest_free": true,
+            "payment_amount_is_bold": true,
+            "show_with": true,
+            "logo_type": "compact-badge",
+            "logo_theme": "black-on-mint",
+            "modal_link_style": "learn-more-text",
+            "modal_theme": "mint",
+            "breakpoint": 749,
+            "text_align_mobile": "inherit",
+            "margin_top_mobile": 16,
+            "margin_bottom_mobile": 16,
+            "show_lower_limit": false,
+            "show_upper_limit": false,
+            "show_if_outside_limits": true,
+            "product": "{{product}}"
+          }
+        },
+        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4": {
+          "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app-block\/4125375e-37c8-4137-949d-c4e1a3aac572",
+          "settings": {
+            "id": "clnlli34e1159218trnsx1bwt9"
+          }
+        },
+        "e9431daf-3b99-40f6-89ff-dab164cda2ff": {
+          "type": "spacer",
+          "settings": {
+            "height": 15
+          }
+        },
+        "ee5e9f1c-a80a-4244-950f-03806a509775": {
+          "type": "shipping_timer",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "59ce3a23-b9ef-4d31-9871-f930e53b6dad": {
+          "type": "usp",
+          "disabled": true,
+          "settings": {
+            "usp": "{{ product.metafields.custom.extra_info_1 | metafield_tag }}"
+          }
+        },
+        "2dbf3d1d-f177-4de8-90a2-25146693d8e3": {
+          "type": "complementary_products",
+          "disabled": true,
+          "settings": {
+            "enable_tab": true,
+            "collapse": true,
+            "title": "Pairs well with",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "layout": "grid",
+            "number_of_items": 2,
+            "enable_quick_buy_desktop": true,
+            "enable_quick_buy_mobile": true,
+            "enable_quick_buy_drawer": true,
+            "enable_quick_buy_qty_selector": true,
+            "enable_color_picker": false,
+            "enable_quick_buy_compact": true,
+            "products_show_image": true,
+            "products_show_labels": false,
+            "products_show_vendor": false,
+            "products_show_title": true,
+            "products_show_rating": false,
+            "products_show_price": true,
+            "products_show_stock": false
+          }
+        }
+      },
+      "block_order": [
+        "b9b5e10d-087a-40ca-be12-59dad7cecc65",
+        "55a99cc6-aec8-4ab1-9647-294068d2bc8a",
+        "c7259cb9-7235-4028-b6df-3a68077fed80",
+        "inventory",
+        "price",
+        "variant_selection",
+        "buy_button",
+        "0ec6a7b6-de00-4b41-8c5c-a08bca2346cb",
+        "581186a8-da3c-4bd6-a0aa-dc2de5b276d5",
+        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4",
+        "e9431daf-3b99-40f6-89ff-dab164cda2ff",
+        "ee5e9f1c-a80a-4244-950f-03806a509775",
+        "59ce3a23-b9ef-4d31-9871-f930e53b6dad",
+        "2dbf3d1d-f177-4de8-90a2-25146693d8e3"
+      ],
+      "settings": {
+        "show_thumbs_desktop": true,
+        "show_thumbs_mobile": true,
+        "images_layout": "aside",
+        "show_product_description": true,
+        "product_description_enable_read_more": false,
+        "pros": "",
+        "cons": "",
+        "specifications": "",
+        "product_description_mobile_collapse": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "recommended_products_qty": 6,
+        "number_of_items": 5,
+        "text_alignment": "start",
+        "title_size": "h1",
+        "title": "You may also like",
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 0,
+        "mobile_collapse": false
+      }
+    },
+    "reviews": {
+      "type": "product-reviews",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "start",
+        "title_size": "h1",
+        "title": "Reviews",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "mobile_collapse": false
+      }
+    },
+    "recently-viewed": {
+      "type": "section-recently-viewed-products",
+      "disabled": true,
+      "settings": {
+        "number_of_items": 5,
+        "text_alignment": "left",
+        "title_size": "h2",
+        "title": "Recently viewed products",
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "recommendations",
+    "reviews",
+    "recently-viewed"
+  ]
+}
