@@ -81,11 +81,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "149f79da-9be8-4197-8fea-3b663b63e5e6": {
-          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fbt_position\/9e87fbe2-9041-4c23-acf5-322413994cef",
-          "settings": {
-          }
-        },
         "0ec6a7b6-de00-4b41-8c5c-a08bca2346cb": {
           "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
           "settings": {
@@ -170,6 +165,15 @@
             "products_show_price": true,
             "products_show_stock": false
           }
+        },
+        "4750a316-f5cc-4fa5-b9b2-dee91807d171": {
+          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+            "bundle_ids": "c0fc2f8c-d3d9-4ce1-9098-fe4b264c97e8",
+            "products": [
+              "thomas-childrens-cutlery-set-3pc"
+            ]
+          }
         }
       },
       "block_order": [
@@ -181,13 +185,13 @@
         "variant_selection",
         "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4",
         "buy_button",
-        "149f79da-9be8-4197-8fea-3b663b63e5e6",
         "0ec6a7b6-de00-4b41-8c5c-a08bca2346cb",
         "581186a8-da3c-4bd6-a0aa-dc2de5b276d5",
         "e9431daf-3b99-40f6-89ff-dab164cda2ff",
         "ee5e9f1c-a80a-4244-950f-03806a509775",
         "59ce3a23-b9ef-4d31-9871-f930e53b6dad",
-        "2dbf3d1d-f177-4de8-90a2-25146693d8e3"
+        "2dbf3d1d-f177-4de8-90a2-25146693d8e3",
+        "4750a316-f5cc-4fa5-b9b2-dee91807d171"
       ],
       "settings": {
         "show_thumbs_desktop": true,
