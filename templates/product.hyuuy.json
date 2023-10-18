@@ -192,6 +192,29 @@
         "product_description_mobile_collapse": true
       }
     },
+    "16976238025ad1d9fe": {
+      "type": "apps",
+      "blocks": {
+        "b680998d-eb14-4656-b5f6-c4d76438596f": {
+          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+            "bundle_ids": "9c042637-2100-4de9-87d3-fd904cab20a0",
+            "products": [
+              "tramontina-verona-lounge-chair-with-arms",
+              "tramontina-teak-wood-lounge-chair-with-arms",
+              "tramontina-teak-wood-coffee-table",
+              "tramontina-teak-wood-bookshelf-plant-stand",
+              "tramontina-teak-fabric-2-seater-outdoor-bench"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "b680998d-eb14-4656-b5f6-c4d76438596f"
+      ],
+      "settings": {
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -245,6 +268,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
+    "16976238025ad1d9fe",
     "recommendations",
     "reviews",
     "recently-viewed"
