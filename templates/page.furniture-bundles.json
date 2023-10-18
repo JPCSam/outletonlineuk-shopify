@@ -6,6 +6,46 @@
         "hide_mobile": false
       }
     },
+    "f63873af-9626-4482-afa5-2961042ae156": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-title-1": {
+          "type": "title",
+          "settings": {
+            "title_size": "size-50",
+            "title": "Furniture Bundles"
+          }
+        },
+        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-content-1": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Need to redesign a room to change things up? Find these fantastic deals on mix-and-match furniture today, and liven up your living space!<\/p>"
+          }
+        },
+        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text": "Button",
+            "link_url": "\/",
+            "button_color_palette": "accent"
+          }
+        }
+      },
+      "block_order": [
+        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-title-1",
+        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-content-1",
+        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-button-1"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "text_alignment": "center",
+        "height": "size-s",
+        "width": "wide",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
     "main-page": {
       "type": "main-page",
       "blocks": {
@@ -113,6 +153,7 @@
   },
   "order": [
     "breadcrumbs",
+    "f63873af-9626-4482-afa5-2961042ae156",
     "main-page",
     "16976266539467dc1a",
     "2fd1ff20-7ce1-437b-ba52-0f828aea3580"
