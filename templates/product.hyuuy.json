@@ -11,6 +11,7 @@
       "blocks": {
         "b9b5e10d-087a-40ca-be12-59dad7cecc65": {
           "type": "codes",
+          "disabled": true,
           "settings": {
             "show_sku": true,
             "show_barcode": true
@@ -18,8 +19,15 @@
         },
         "55a99cc6-aec8-4ab1-9647-294068d2bc8a": {
           "type": "short_description",
+          "disabled": true,
           "settings": {
             "show_read_more": true
+          }
+        },
+        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4": {
+          "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app-block\/4125375e-37c8-4137-949d-c4e1a3aac572",
+          "settings": {
+            "id": "clnlli34e1159218trnsx1bwt9"
           }
         },
         "c7259cb9-7235-4028-b6df-3a68077fed80": {
@@ -111,14 +119,9 @@
             "product": "{{product}}"
           }
         },
-        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4": {
-          "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app-block\/4125375e-37c8-4137-949d-c4e1a3aac572",
-          "settings": {
-            "id": "clnlli34e1159218trnsx1bwt9"
-          }
-        },
         "e9431daf-3b99-40f6-89ff-dab164cda2ff": {
           "type": "spacer",
+          "disabled": true,
           "settings": {
             "height": 15
           }
@@ -167,6 +170,7 @@
       "block_order": [
         "b9b5e10d-087a-40ca-be12-59dad7cecc65",
         "55a99cc6-aec8-4ab1-9647-294068d2bc8a",
+        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4",
         "c7259cb9-7235-4028-b6df-3a68077fed80",
         "inventory",
         "price",
@@ -174,7 +178,6 @@
         "buy_button",
         "0ec6a7b6-de00-4b41-8c5c-a08bca2346cb",
         "581186a8-da3c-4bd6-a0aa-dc2de5b276d5",
-        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4",
         "e9431daf-3b99-40f6-89ff-dab164cda2ff",
         "ee5e9f1c-a80a-4244-950f-03806a509775",
         "59ce3a23-b9ef-4d31-9871-f930e53b6dad",
