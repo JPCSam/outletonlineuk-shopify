@@ -22,20 +22,11 @@
             "page": "",
             "text": "<p>Need to redesign a room to change things up? Find these fantastic deals on mix-and-match furniture today, and liven up your living space!<\/p>"
           }
-        },
-        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-button-1": {
-          "type": "button",
-          "settings": {
-            "link_text": "Button",
-            "link_url": "\/",
-            "button_color_palette": "accent"
-          }
         }
       },
       "block_order": [
         "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-title-1",
-        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-content-1",
-        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-button-1"
+        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-content-1"
       ],
       "settings": {
         "color_palette": "white",
@@ -65,6 +56,7 @@
         "title",
         "content"
       ],
+      "disabled": true,
       "settings": {
         "max_width": 980,
         "content_alignment": "center",
