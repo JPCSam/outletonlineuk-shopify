@@ -86,7 +86,7 @@
         "show_content_on_hover": false,
         "content_on_hover_color_palette": "dark",
         "layout_mobile": "rows",
-        "mobile_height": "size-s",
+        "mobile_height": "size-m",
         "spacing_desktop": 50,
         "spacing_mobile": 30
       }
