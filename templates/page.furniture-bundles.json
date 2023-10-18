@@ -26,7 +26,66 @@
         "content"
       ],
       "settings": {
-        "text_alignment": "start",
+        "max_width": 980,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "16976266539467dc1a": {
+      "type": "apps",
+      "blocks": {
+        "ef99edc8-0626-417e-941d-67b7acb3ad0e": {
+          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+            "bundle_ids": "9c042637-2100-4de9-87d3-fd904cab20a0"
+          }
+        }
+      },
+      "block_order": [
+        "ef99edc8-0626-417e-941d-67b7acb3ad0e"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "2fd1ff20-7ce1-437b-ba52-0f828aea3580": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--21427457196349__2fd1ff20-7ce1-437b-ba52-0f828aea3580-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tramontina-teak-set.png",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "button_color_palette": "accent",
+            "text_position": "text-end",
+            "title_size": "h1",
+            "title": "Tramontina Teak Bundle",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "link_text": "See Bundle",
+            "link_url": "https:\/\/outletonlineuk.com\/pages\/collection-bundle\/?b=9c042637-2100-4de9-87d3-fd904cab20a0",
+            "show_link": false,
+            "title_size_mobile": "mobile-size-18"
+          }
+        }
+      },
+      "block_order": [
+        "template--21427457196349__2fd1ff20-7ce1-437b-ba52-0f828aea3580-image-1"
+      ],
+      "settings": {
+        "items_layout": "static-grid",
+        "items_width": 1,
+        "height": "size-m",
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "show_content_on_hover": false,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
         "spacing_desktop": 50,
         "spacing_mobile": 30
       }
@@ -34,6 +93,8 @@
   },
   "order": [
     "breadcrumbs",
-    "main-page"
+    "main-page",
+    "16976266539467dc1a",
+    "2fd1ff20-7ce1-437b-ba52-0f828aea3580"
   ]
 }
