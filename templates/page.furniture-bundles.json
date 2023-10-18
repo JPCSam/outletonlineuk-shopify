@@ -70,10 +70,29 @@
             "image_mobile": "shopify:\/\/shop_images\/tramontina-teak-set-10-mob_c88e6a04-a2ee-44d6-a33b-98937c0e1f5d.png",
             "title_size_mobile": "mobile-size-22"
           }
+        },
+        "2116db9c-2c5c-4337-87ea-7a6aa6b66323": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tramontina-verona-set_5b17f749-cf10-4bb6-acff-acc7d634c3e2.webp",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "button_color_palette": "accent",
+            "text_position": "text-end",
+            "title_size": "h1",
+            "title": "Tramontina Verona Bundle",
+            "text": "<p>Buy 2 pieces or more, and get <strong>10% off!<\/strong><\/p>",
+            "link_text": "See Bundle",
+            "link_url": "https:\/\/outletonlineuk.com\/pages\/collection-bundle\/?b=af1c1a95-3917-4eb5-992b-fe3c3601545a",
+            "show_link": false,
+            "image_mobile": "shopify:\/\/shop_images\/tramontina-teak-set-10-mob_c88e6a04-a2ee-44d6-a33b-98937c0e1f5d.png",
+            "title_size_mobile": "mobile-size-22"
+          }
         }
       },
       "block_order": [
-        "template--21427457196349__2fd1ff20-7ce1-437b-ba52-0f828aea3580-image-1"
+        "template--21427457196349__2fd1ff20-7ce1-437b-ba52-0f828aea3580-image-1",
+        "2116db9c-2c5c-4337-87ea-7a6aa6b66323"
       ],
       "settings": {
         "items_layout": "static-grid",
