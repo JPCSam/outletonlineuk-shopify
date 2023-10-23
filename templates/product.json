@@ -201,7 +201,7 @@
         "product_description_enable_read_more": false,
         "pros": "",
         "cons": "",
-        "specifications": "",
+        "specifications": "{{ product.metafields.custom.specification | metafield_tag }}",
         "product_description_mobile_collapse": true
       }
     },
