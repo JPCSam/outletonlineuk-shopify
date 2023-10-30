@@ -263,12 +263,12 @@
     "16602912025c583cc8": {
       "type": "section-featured-collection",
       "settings": {
-        "collection": "new-in-stock",
+        "collection": "weekly-offers",
         "limit": 5,
         "number_of_items": 5,
         "text_alignment": "start",
         "title_size": "h1",
-        "title": "New in stock",
+        "title": "Weekly Offers",
         "text": "",
         "link_text": "",
         "button_color_palette": "accent",
@@ -553,6 +553,29 @@
         "spacing_mobile": 30
       }
     },
+    "12669de4-b9fc-4a62-ac06-2ae145ea6370": {
+      "type": "section-featured-collection",
+      "settings": {
+        "collection": "new-in-stock",
+        "limit": 5,
+        "number_of_items": 5,
+        "text_alignment": "start",
+        "title_size": "h1",
+        "title": "New to Outlet Online",
+        "text": "",
+        "link_text": "",
+        "button_color_palette": "accent",
+        "show_link": true,
+        "enable_quick_buy_desktop": false,
+        "enable_quick_buy_mobile": false,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
     "166029123538307d80": {
       "type": "section-blog-posts",
       "disabled": true,
@@ -634,6 +657,7 @@
     "16605537948e81aa7a",
     "1660291177d9f45101",
     "1662644641662a3424",
+    "12669de4-b9fc-4a62-ac06-2ae145ea6370",
     "166029123538307d80",
     "845ceaa8-f10d-4999-a6d6-83502db46aec",
     "1695305678c7951965"
