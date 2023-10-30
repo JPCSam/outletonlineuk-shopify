@@ -230,11 +230,33 @@
               "tramontina-verona-lounge-chair-with-arms"
             ]
           }
+        },
+        "6ce2375e-29d7-4ac5-9b41-0d787a5f8549": {
+          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+            "bundle_ids": "a725b5a9-a354-4d8d-8024-173ba13bcd3a",
+            "products": [
+              "bedside-cabinet-brown-and-black-solid-wood-mango",
+              "bedside-cabinets-2-pcs-brown-and-black-solid-wood-mango",
+              "coffee-table-brown-and-black-solid-wood-mango",
+              "coffee-table-brown-and-black-solid-wood-mango-1",
+              "highboard-brown-and-black-solid-wood-mango",
+              "side-cabinet-brown-and-black-40x33-5x75-cm-solid-wood-mango",
+              "side-cabinet-brown-and-black-80x33-5x75-cm-solid-wood-mango",
+              "side-cabinet-brown-and-black-solid-wood-mango",
+              "side-cabinet-brown-and-black-60x33-5x75-cm-solid-wood-mango",
+              "tv-cabinet-brown-and-black-105x33-5x46-cm-solid-wood-mango",
+              "tv-cabinet-brown-and-black-solid-wood-mango",
+              "tv-cabinet-brown-and-black-solid-wood-mango-1",
+              "tv-cabinet-brown-and-black-100x33-5x46-cm-solid-wood-mango"
+            ]
+          }
         }
       },
       "block_order": [
         "4ed76058-e65e-4710-ae5b-fc67034feab5",
-        "60178d24-44a2-4520-9d5b-4bd717536ae0"
+        "60178d24-44a2-4520-9d5b-4bd717536ae0",
+        "6ce2375e-29d7-4ac5-9b41-0d787a5f8549"
       ],
       "settings": {
       }
