@@ -123,15 +123,15 @@
         "ccf24891-136e-4c3c-a6b1-e0d3d21a755e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/furniturebundles_mango_wood_desktop_smaller.webp",
+            "image": "shopify:\/\/shop_images\/furniturebundles_mango_wood_desktop_smaller_59d7a92c-da26-40d6-a3a3-dd6d4298586b.webp",
             "overlay_opacity": 0,
             "color_palette": "black",
             "button_color_palette": "accent",
             "text_position": "text-end",
             "title_size": "h1",
-            "title": "Mango Wood Bundle",
-            "text": "<p>Buy 2 pieces or more, and get <strong>10% off!<\/strong><\/p>",
-            "link_text": "See Bundle",
+            "title": "",
+            "text": "",
+            "link_text": "",
             "link_url": "https:\/\/outletonlineuk.com\/pages\/collection-bundle\/?b=a725b5a9-a354-4d8d-8024-173ba13bcd3a",
             "show_link": false,
             "title_size_mobile": "mobile-size-22"
