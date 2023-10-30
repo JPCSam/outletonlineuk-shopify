@@ -49,6 +49,7 @@
     "show_price_varies": true,
     "product_custom_label": "custom.custom_label_text",
     "show_product_stock": true,
+    "show_product_stock_qty": 15,
     "show_product_rating": false,
     "show_vendor": true,
     "product_short_description": "product_description",
