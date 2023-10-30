@@ -130,7 +130,7 @@
         "9fc0e35a-f92e-4d1d-a5ea-98578f761326": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vegan-collection-splash_e8c4f58e-b158-45f2-a2ce-9dd3be689b39.webp",
+            "image": "shopify:\/\/shop_images\/workwear_collection.webp",
             "overlay_opacity": 0,
             "color_palette": "white",
             "button_color_palette": "accent",
@@ -139,9 +139,9 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/vegan",
+            "link_url": "shopify:\/\/collections\/workwear",
             "show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/vegan-collection-splash-mob-2.webp",
+            "image_mobile": "shopify:\/\/shop_images\/workwear_collection_mobile_smaller.webp",
             "title_size_mobile": "mobile-size-16"
           }
         }
