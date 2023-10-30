@@ -405,6 +405,46 @@
         "spacing_mobile": 30
       }
     },
+    "ba670711-6a5d-4b6b-9541-b20c3e795c5e": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-title-1": {
+          "type": "title",
+          "settings": {
+            "title_size": "size-50",
+            "title": "Furniture Bundles Now Available"
+          }
+        },
+        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-content-1": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>We've released some great value furniture bundles, allowing you to redecorate for even cheaper! Check them out below, or check your favourite pieces to see if they're bundled!<\/p>"
+          }
+        },
+        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text": "Button",
+            "link_url": "shopify:\/\/pages\/furniture-bundles",
+            "button_color_palette": "accent"
+          }
+        }
+      },
+      "block_order": [
+        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-title-1",
+        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-content-1",
+        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-button-1"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "text_alignment": "center",
+        "height": "size-s",
+        "width": "wide",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
     "16605537948e81aa7a": {
       "type": "section-image-with-products",
       "settings": {
@@ -590,6 +630,7 @@
     "16602912025c583cc8",
     "1660291186859914cb",
     "1662644676f2b34df9",
+    "ba670711-6a5d-4b6b-9541-b20c3e795c5e",
     "16605537948e81aa7a",
     "1660291177d9f45101",
     "1662644641662a3424",
