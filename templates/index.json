@@ -425,7 +425,7 @@
         "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-button-1": {
           "type": "button",
           "settings": {
-            "link_text": "Button",
+            "link_text": "Visit Bundles",
             "link_url": "shopify:\/\/pages\/furniture-bundles",
             "button_color_palette": "accent"
           }
