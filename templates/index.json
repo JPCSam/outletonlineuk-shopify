@@ -44,6 +44,7 @@
         },
         "47247d1c-77f0-4cec-9f14-cd0434e4c32b": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/halloween_main_splash_smaller.webp",
             "layout": "background",
