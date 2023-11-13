@@ -131,7 +131,7 @@
         "9fc0e35a-f92e-4d1d-a5ea-98578f761326": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/workwear_collection.webp",
+            "image": "shopify:\/\/shop_images\/featured_pet_collection_smaller.png",
             "overlay_opacity": 0,
             "color_palette": "white",
             "button_color_palette": "accent",
@@ -142,7 +142,7 @@
             "link_text": "",
             "link_url": "shopify:\/\/collections\/workwear",
             "show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/workwear_collection_mobile_smaller.webp",
+            "image_mobile": "shopify:\/\/shop_images\/featured_pet_collection_mob_smaller.png",
             "title_size_mobile": "mobile-size-16"
           }
         }
