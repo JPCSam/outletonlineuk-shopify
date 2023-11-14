@@ -49,7 +49,7 @@
         "template--20133140037949__6449bf66-8e7c-4eae-ae91-4027078ea7c9-button-1": {
           "type": "button",
           "settings": {
-            "link_text": "Button",
+            "link_text": "Register as an Affiliate",
             "link_url": "https:\/\/af.uppromote.com\/outletonline\/register",
             "button_color_palette": "accent"
           }
