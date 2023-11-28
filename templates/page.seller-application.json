@@ -1,83 +1,72 @@
 {
-  "sections": {
-    "breadcrumbs": {
-      "type": "breadcrumbs",
-      "settings": {
-        "hide_mobile": false
-      }
-    },
-    "main-page": {
-      "type": "main-page",
-      "blocks": {
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-            "title_size": "h1"
-          }
-        },
-        "content": {
-          "type": "content",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "title",
-        "content"
-      ],
-      "settings": {
-        "max_width": 980,
-        "content_alignment": "start",
-        "text_alignment": "start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "1695306377c6d1e595": {
-      "type": "apps",
-      "blocks": {
-        "1e851d0f-7c65-44c5-b45a-11dae0f00447": {
-          "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/form-block\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
-          "settings": {
-            "form_uuid": "ray5igr94V4_FShSfpUC3g",
-            "form_settings": false,
-            "font_color": "#000000",
-            "size": 14,
-            "input_background_color": "#FFF",
-            "input_background_color_focus": "#F4DADA",
-            "input_border_radius": 1,
-            "input_border_color": "#ebe9e9",
-            "input_border_color_focus": "#2D2727",
-            "input_font_color": "#3D3131",
-            "input_size": 14,
-            "border_color": "#121212",
-            "border_radius": 2,
-            "border": 1,
-            "fill_color": "#EBE9E9",
-            "padding": 35,
-            "form_width": 600,
-            "btn_text": "Submit",
-            "sub_btn_txt_color": "#F3F3F3",
-            "sub_btn_bg_color": "#3F3333",
-            "sub_btn_font_size": 14,
-            "sub_btn_bdr_color": "#FFFFFF",
-            "sub_btn_bdr_rad": 3,
-            "sub_btn_bdr_width": 1,
-            "fonts": "Times New Roman"
-          }
-        }
-      },
-      "block_order": [
-        "1e851d0f-7c65-44c5-b45a-11dae0f00447"
-      ],
-      "settings": {
-      }
-    }
-  },
-  "order": [
-    "breadcrumbs",
-    "main-page",
-    "1695306377c6d1e595"
-  ]
+	"sections": {
+		"breadcrumbs": {
+			"type": "breadcrumbs",
+			"settings": {
+				"hide_mobile": false
+			}
+		},
+		"main-page": {
+			"type": "main-page",
+			"blocks": {
+				"title": {
+					"type": "title",
+					"disabled": true,
+					"settings": {
+						"title_size": "h1"
+					}
+				},
+				"content": {
+					"type": "content",
+					"settings": {}
+				}
+			},
+			"block_order": ["title", "content"],
+			"settings": {
+				"max_width": 980,
+				"content_alignment": "start",
+				"text_alignment": "start",
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"1695306377c6d1e595": {
+			"type": "apps",
+			"blocks": {
+				"1e851d0f-7c65-44c5-b45a-11dae0f00447": {
+					"type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+					"settings": {
+						"form_uuid": "ray5igr94V4_FShSfpUC3g",
+						"form_settings": false,
+						"font_color": "#000000",
+						"size": 14,
+						"input_background_color": "#FFF",
+						"input_background_color_focus": "#F4DADA",
+						"input_border_radius": 1,
+						"input_border_color": "#ebe9e9",
+						"input_border_color_focus": "#2D2727",
+						"input_font_color": "#3D3131",
+						"input_size": 14,
+						"border_color": "#121212",
+						"border_radius": 2,
+						"border": 1,
+						"fill_color": "#EBE9E9",
+						"padding": 35,
+						"form_width": 600,
+						"btn_text": "Submit",
+						"sub_btn_txt_color": "#F3F3F3",
+						"sub_btn_bg_color": "#3F3333",
+						"sub_btn_font_size": 14,
+						"sub_btn_bdr_color": "#FFFFFF",
+						"sub_btn_bdr_rad": 3,
+						"sub_btn_bdr_width": 1,
+						"fonts": "Times New Roman"
+					}
+				}
+			},
+			"block_order": ["1e851d0f-7c65-44c5-b45a-11dae0f00447"],
+			"settings": {}
+		}
+	},
+	"order": ["breadcrumbs", "main-page", "1695306377c6d1e595"]
 }

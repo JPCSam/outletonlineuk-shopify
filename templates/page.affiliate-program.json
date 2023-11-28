@@ -1,76 +1,69 @@
 {
-  "sections": {
-    "breadcrumbs": {
-      "type": "breadcrumbs",
-      "settings": {
-        "hide_mobile": false
-      }
-    },
-    "main-page": {
-      "type": "main-page",
-      "blocks": {
-        "content": {
-          "type": "content",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "content"
-      ],
-      "disabled": true,
-      "settings": {
-        "max_width": 980,
-        "content_alignment": "start",
-        "text_alignment": "start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2": {
-      "type": "section-rich-text",
-      "blocks": {
-        "template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-title-1": {
-          "type": "title",
-          "settings": {
-            "title_size": "size-50",
-            "title": "Become an Affiliate today"
-          }
-        },
-        "template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-content-1": {
-          "type": "content",
-          "settings": {
-            "page": "",
-            "text": "<p>Outlet Online provides customers with a chance to partner with us, and earn cash for any referral sales you make!<\/p><p>You will get a 7% commission on total referral sales when a customer makes a purchase through your affiliate link or uses your coupon code.<\/p><p>For more information and how to sign up, click below!<\/p>"
-          }
-        },
-        "template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-button-1": {
-          "type": "button",
-          "settings": {
-            "link_text": "Join Now",
-            "link_url": "https:\/\/af.uppromote.com\/outletonline\/register",
-            "button_color_palette": "accent"
-          }
-        }
-      },
-      "block_order": [
-        "template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-title-1",
-        "template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-content-1",
-        "template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-button-1"
-      ],
-      "settings": {
-        "color_palette": "white",
-        "text_alignment": "center",
-        "height": "size-s",
-        "width": "wide",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    }
-  },
-  "order": [
-    "breadcrumbs",
-    "main-page",
-    "1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2"
-  ]
+	"sections": {
+		"breadcrumbs": {
+			"type": "breadcrumbs",
+			"settings": {
+				"hide_mobile": false
+			}
+		},
+		"main-page": {
+			"type": "main-page",
+			"blocks": {
+				"content": {
+					"type": "content",
+					"settings": {}
+				}
+			},
+			"block_order": ["content"],
+			"disabled": true,
+			"settings": {
+				"max_width": 980,
+				"content_alignment": "start",
+				"text_alignment": "start",
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2": {
+			"type": "section-rich-text",
+			"blocks": {
+				"template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-title-1": {
+					"type": "title",
+					"settings": {
+						"title_size": "size-50",
+						"title": "Become an Affiliate today"
+					}
+				},
+				"template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-content-1": {
+					"type": "content",
+					"settings": {
+						"page": "",
+						"text": "<p>Outlet Online provides customers with a chance to partner with us, and earn cash for any referral sales you make!</p><p>You will get a 7% commission on total referral sales when a customer makes a purchase through your affiliate link or uses your coupon code.</p><p>For more information and how to sign up, click below!</p>"
+					}
+				},
+				"template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-button-1": {
+					"type": "button",
+					"settings": {
+						"link_text": "Join Now",
+						"link_url": "https://af.uppromote.com/outletonline/register",
+						"button_color_palette": "accent"
+					}
+				}
+			},
+			"block_order": [
+				"template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-title-1",
+				"template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-content-1",
+				"template--21205897609533__1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2-button-1"
+			],
+			"settings": {
+				"color_palette": "white",
+				"text_alignment": "center",
+				"height": "size-s",
+				"width": "wide",
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		}
+	},
+	"order": ["breadcrumbs", "main-page", "1ef0c6fe-49d5-44d9-b293-7fb5e32cbae2"]
 }
