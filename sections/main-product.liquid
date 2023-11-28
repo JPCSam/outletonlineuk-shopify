@@ -62,7 +62,28 @@
     endif
     assign sizes = '(min-width: 1000px) ' | append: main_width | append: 'px, 100vw'
 
+    assign brands = shop.metaobjects.brand.values
+    for brand in brands
+      assign brand_data = brand
+      if brand_data.brand_name == product.vendor
+        assign has_seller = true
+        assign product_brand = brand_data
+      endif
+    endfor
+    assign brand_collection_id = product_brand.brand_collection | split: "/" | last | plus:0
+
+    for c in collections
+      if c.id == brand_collection_id
+        assign brand_collection = c
+      endif
+    endfor
 -%}
+
+<script>
+  console.log('{{product_brand.brand_collection | split: "/" | last}}');
+  console.log({{collections | json}});
+  console.log({{brand_collection | json}});
+</script>
 
 {%- capture header -%}
     <header {{ title_block.shopify_attributes }} class="class-x">
@@ -208,15 +229,14 @@
         {%- if has_pros_and_cons == false and has_specs == false -%}
             {%- if section.settings.show_product_description and product.description != empty -%}
                 <footer class="m6tb static desktop-only">
-                    <nav>
-                      <ul id="product-tabs-ul" class="product-tabs">
-                          <li class="tab-active product-tab"><a id="tab-info-tab" onclick="changeProductTab('tab-info-tab')" data-id="tab-info">Description</a></li>
-                          <li class="product-tab"><a id="tab-specification-tab" onclick="changeProductTab('tab-specification-tab')" data-id="tab-specification">Specification</a></li>
-                      </ul>
+                    <nav class="hidden">
+                        <ul>
+                            <li class="active"><a href="#section-info">{{ 'product.description' | t }}</a></li>
+                        </ul>
                     </nav>
                     <div>
-                        <div id="tab-info" class="product-tab-content tab-active">
-                            <h2 class="mobile-hide">Description</h2>
+                        <div id="section-info">
+                            <h2 class="mobile-hide">{{ 'product.description' | t }}</h2>
                             {%- if section.settings.product_description_enable_read_more -%}
                                 <div class="m6lm">
                                     {{ product.description }}
@@ -226,10 +246,6 @@
                                 {{ product.description }}
                             {%- endif -%}
                         </div>
-                        <div id="tab-specification" class="product-tab-content">
-                          <h2 class="mobile-hide">Specification</h2>
-                          {{ product.description }}
-                      </div>
                     </div>
                 </footer>
             {%- endif %}

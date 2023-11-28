@@ -1,0 +1,172 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_mobile": false
+      }
+    },
+    "f63873af-9626-4482-afa5-2961042ae156": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-title-1": {
+          "type": "title",
+          "settings": {
+            "title_size": "size-50",
+            "title": "Furniture Bundles"
+          }
+        },
+        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-content-1": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Need to redesign a room to change things up? Find these fantastic deals on mix-and-match furniture today, and liven up your living space!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-title-1",
+        "template--21427457196349__f63873af-9626-4482-afa5-2961042ae156-content-1"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "text_alignment": "center",
+        "height": "size-s",
+        "width": "wide",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h1"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "16976266539467dc1a": {
+      "type": "apps",
+      "blocks": {
+        "ef99edc8-0626-417e-941d-67b7acb3ad0e": {
+          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+            "bundle_ids": "9c042637-2100-4de9-87d3-fd904cab20a0"
+          }
+        }
+      },
+      "block_order": [
+        "ef99edc8-0626-417e-941d-67b7acb3ad0e"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "2fd1ff20-7ce1-437b-ba52-0f828aea3580": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--21427457196349__2fd1ff20-7ce1-437b-ba52-0f828aea3580-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/furniture_bundles_teak_smaller.png",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "button_color_palette": "accent",
+            "text_position": "text-end",
+            "title_size": "h1",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": "https:\/\/outletonlineuk.com\/pages\/collection-bundle\/?b=9c042637-2100-4de9-87d3-fd904cab20a0",
+            "show_link": false,
+            "image_mobile": "shopify:\/\/shop_images\/furniture_bundles_teak_mob_smaller.png",
+            "title_size_mobile": "mobile-size-22"
+          }
+        },
+        "2116db9c-2c5c-4337-87ea-7a6aa6b66323": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/furniture_bundles_verona_smaller.png",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "button_color_palette": "accent",
+            "text_position": "text-end",
+            "title_size": "h1",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": "https:\/\/outletonlineuk.com\/pages\/collection-bundle\/?b=af1c1a95-3917-4eb5-992b-fe3c3601545a",
+            "show_link": false,
+            "image_mobile": "shopify:\/\/shop_images\/furniture_bundles_verona_mob_smaller.png",
+            "title_size_mobile": "mobile-size-22"
+          }
+        },
+        "ccf24891-136e-4c3c-a6b1-e0d3d21a755e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/furniturebundles_mango_wood_desktop_smaller_59d7a92c-da26-40d6-a3a3-dd6d4298586b.webp",
+            "overlay_opacity": 0,
+            "color_palette": "black",
+            "button_color_palette": "accent",
+            "text_position": "text-end",
+            "title_size": "h1",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": "https:\/\/outletonlineuk.com\/pages\/collection-bundle\/?b=a725b5a9-a354-4d8d-8024-173ba13bcd3a",
+            "show_link": false,
+            "image_mobile": "shopify:\/\/shop_images\/furniture_bundles_mango_mob_smaller.png",
+            "title_size_mobile": "mobile-size-22"
+          }
+        }
+      },
+      "block_order": [
+        "template--21427457196349__2fd1ff20-7ce1-437b-ba52-0f828aea3580-image-1",
+        "2116db9c-2c5c-4337-87ea-7a6aa6b66323",
+        "ccf24891-136e-4c3c-a6b1-e0d3d21a755e"
+      ],
+      "settings": {
+        "items_layout": "static-grid",
+        "items_width": 1,
+        "height": "size-m",
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": false,
+        "image_move": false,
+        "show_content_on_hover": false,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "rows",
+        "mobile_height": "size-m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "f63873af-9626-4482-afa5-2961042ae156",
+    "main-page",
+    "16976266539467dc1a",
+    "2fd1ff20-7ce1-437b-ba52-0f828aea3580"
+  ]
+}

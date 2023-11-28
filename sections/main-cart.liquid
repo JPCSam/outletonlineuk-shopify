@@ -183,6 +183,7 @@
               {{ cart.total_price | money }}
             </li>
           </ul>
+          <div class="order-value-booster-block" id="clnlm8wtp2212618trxpko3o5e"></div>
           {% if section.settings.enable_terms_checkbox and section.settings.terms_text != empty %}
             <p class="check">
               <input type="checkbox" id="check_{{ section.id }}" aria-label="{{ section.settings.terms_text | strip_html | escape }}" data-bind="check_{{ section.id }}_mobile" required>
@@ -210,6 +211,8 @@
               {% for payment_method in shop.enabled_payment_types %}
                 <li>{{ payment_method | payment_type_svg_tag }}</li>
               {% endfor %}
+              <li>{{ 'klarna' | payment_type_svg_tag }}</li>
+              <li>{{ 'afterpay' | payment_type_svg_tag }}</li>
             </ul>
           {%- endif -%}
           {%- if section.settings.show_order_notes -%}

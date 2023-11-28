@@ -24,6 +24,12 @@
             "show_read_more": true
           }
         },
+        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4": {
+          "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app-block\/4125375e-37c8-4137-949d-c4e1a3aac572",
+          "settings": {
+            "id": "clnlli34e1159218trnsx1bwt9"
+          }
+        },
         "c7259cb9-7235-4028-b6df-3a68077fed80": {
           "type": "title",
           "settings": {
@@ -62,12 +68,6 @@
             "enable_selling_plans": true
           }
         },
-        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4": {
-          "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app-block\/4125375e-37c8-4137-949d-c4e1a3aac572",
-          "settings": {
-            "id": "clnlli34e1159218trnsx1bwt9"
-          }
-        },
         "buy_button": {
           "type": "buy_button",
           "settings": {
@@ -79,15 +79,6 @@
             "preorder_label_color_palette": "light_2",
             "preorder_show_dynamic_buybutton": false,
             "show_gift_card_recipient": false
-          }
-        },
-        "4750a316-f5cc-4fa5-b9b2-dee91807d171": {
-          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
-          "settings": {
-            "bundle_ids": "c0fc2f8c-d3d9-4ce1-9098-fe4b264c97e8",
-            "products": [
-              "thomas-childrens-cutlery-set-3pc"
-            ]
           }
         },
         "0ec6a7b6-de00-4b41-8c5c-a08bca2346cb": {
@@ -179,13 +170,12 @@
       "block_order": [
         "b9b5e10d-087a-40ca-be12-59dad7cecc65",
         "55a99cc6-aec8-4ab1-9647-294068d2bc8a",
+        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4",
         "c7259cb9-7235-4028-b6df-3a68077fed80",
         "inventory",
         "price",
         "variant_selection",
-        "5f0ca9de-84fb-4eaa-a716-90c6ed4a1dc4",
         "buy_button",
-        "4750a316-f5cc-4fa5-b9b2-dee91807d171",
         "0ec6a7b6-de00-4b41-8c5c-a08bca2346cb",
         "581186a8-da3c-4bd6-a0aa-dc2de5b276d5",
         "e9431daf-3b99-40f6-89ff-dab164cda2ff",
@@ -201,62 +191,29 @@
         "product_description_enable_read_more": false,
         "pros": "",
         "cons": "",
-        "specifications": "{{ product.metafields.custom.specification | metafield_tag }}",
+        "specifications": "",
         "product_description_mobile_collapse": true
       }
     },
-    "169762402759b88705": {
+    "16976238025ad1d9fe": {
       "type": "apps",
       "blocks": {
-        "4ed76058-e65e-4710-ae5b-fc67034feab5": {
+        "b680998d-eb14-4656-b5f6-c4d76438596f": {
           "type": "shopify:\/\/apps\/fast-bundle\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
           "settings": {
             "bundle_ids": "9c042637-2100-4de9-87d3-fd904cab20a0",
             "products": [
-              "tramontina-teak-fabric-2-seater-outdoor-bench",
-              "tramontina-teak-wood-bookshelf-plant-stand",
+              "tramontina-verona-lounge-chair-with-arms",
+              "tramontina-teak-wood-lounge-chair-with-arms",
               "tramontina-teak-wood-coffee-table",
-              "tramontina-teak-wood-lounge-chair-with-arms"
-            ]
-          }
-        },
-        "60178d24-44a2-4520-9d5b-4bd717536ae0": {
-          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
-          "settings": {
-            "bundle_ids": "af1c1a95-3917-4eb5-992b-fe3c3601545a",
-            "products": [
-              "tramontina-verona-coffee-table-2-seater-bench",
-              "tramontina-verona-teak-wood-2-seater-bench-with-arms",
-              "tramontina-verona-lounge-chair-with-arms"
-            ]
-          }
-        },
-        "6ce2375e-29d7-4ac5-9b41-0d787a5f8549": {
-          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/product_bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
-          "settings": {
-            "bundle_ids": "a725b5a9-a354-4d8d-8024-173ba13bcd3a",
-            "products": [
-              "bedside-cabinet-brown-and-black-solid-wood-mango",
-              "bedside-cabinets-2-pcs-brown-and-black-solid-wood-mango",
-              "coffee-table-brown-and-black-solid-wood-mango",
-              "coffee-table-brown-and-black-solid-wood-mango-1",
-              "highboard-brown-and-black-solid-wood-mango",
-              "side-cabinet-brown-and-black-40x33-5x75-cm-solid-wood-mango",
-              "side-cabinet-brown-and-black-80x33-5x75-cm-solid-wood-mango",
-              "side-cabinet-brown-and-black-solid-wood-mango",
-              "side-cabinet-brown-and-black-60x33-5x75-cm-solid-wood-mango",
-              "tv-cabinet-brown-and-black-105x33-5x46-cm-solid-wood-mango",
-              "tv-cabinet-brown-and-black-solid-wood-mango",
-              "tv-cabinet-brown-and-black-solid-wood-mango-1",
-              "tv-cabinet-brown-and-black-100x33-5x46-cm-solid-wood-mango"
+              "tramontina-teak-wood-bookshelf-plant-stand",
+              "tramontina-teak-fabric-2-seater-outdoor-bench"
             ]
           }
         }
       },
       "block_order": [
-        "4ed76058-e65e-4710-ae5b-fc67034feab5",
-        "60178d24-44a2-4520-9d5b-4bd717536ae0",
-        "6ce2375e-29d7-4ac5-9b41-0d787a5f8549"
+        "b680998d-eb14-4656-b5f6-c4d76438596f"
       ],
       "settings": {
       }
@@ -314,7 +271,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "169762402759b88705",
+    "16976238025ad1d9fe",
     "recommendations",
     "reviews",
     "recently-viewed"

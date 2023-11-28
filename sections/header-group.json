@@ -1,1 +1,100 @@
-{"type":"header","name":"t:static_sections.header.name","sections":{"announcement":{"type":"announcement-bar","disabled":true,"settings":{"color_palette":"dark_gradient","text":"<p>Shout out your big announcement here!<\/p>"}},"header":{"type":"header","blocks":{"header-block-button-1":{"type":"button","settings":{"show_mobile":true,"button_menu":"main-navigation-bar","button_color":"accent"}},"header-block-usp-1":{"type":"usp","settings":{"usp":"<p>Everything shipped within 72 hours<\/p>"}},"header-block-usp-2":{"type":"usp","settings":{"usp":"<p>9am-5pm Customer Service <\/p>"}},"fc558761-d091-4fac-b14e-4003e5060905":{"type":"usp","settings":{"usp":"<p>Shipping to anywhere in Mainland UK<\/p>"}}},"block_order":["header-block-button-1","header-block-usp-1","header-block-usp-2","fc558761-d091-4fac-b14e-4003e5060905"],"settings":{"layout":"layout_1","header_width":"boxed","top_bar_color":"light","header_color":"white","search_color":"light_2","menubar_color":"light","logo":"shopify:\/\/shop_images\/outletonline_logo_main.svg","logo_width":150,"svg_logo":"","show_top_bar":true,"enable_country_selector":false,"enable_language_selector":false,"navbar_menu_item_text":"Contact us","navbar_menu_item_link":"shopify:\/\/pages\/contact","enable_usp_slider":false,"enable_usp_slider_arrows":false,"enable_usp_slider_autoplay":false,"usp_slider_autoplay_seconds":3,"enable_sticky_header":true,"sticky":"sticky-header","cart_icon":"cart|e903","cart_icon_color":"accent","menubar_menu":"main-navigation-bar","menu_layout":"mega","show_dropdown_images":false,"show_dropdown_images_autofill":false,"menubar_center":false,"menubar_divide_evenly":false,"main_menu_items_clickable":true,"menubar_caps":true,"sale_highlight":true,"menu_font":"body","menu_items_limit":5,"enable_socials":false,"extra_image_width":130,"extra_image_svg":"","extra_image_link":"","disable_online_store":false,"mobile_logo":"shopify:\/\/shop_images\/outletonline_logo_main.svg","logo_width_mobile":150,"mobile_svg_logo":"","search_compact_mobile":true}}},"order":["announcement","header"]}
+{
+  "type": "header",
+  "name": "t:static_sections.header.name",
+  "sections": {
+    "announcement": {
+      "type": "announcement-bar",
+      "disabled": true,
+      "settings": {
+        "color_palette": "dark_gradient",
+        "text": "<p>Shout out your big announcement here!<\/p>"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-block-button-1": {
+          "type": "button",
+          "settings": {
+            "show_mobile": true,
+            "button_menu": "main-navigation-bar",
+            "button_color": "accent"
+          }
+        },
+        "header-block-usp-1": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>We accept <strong>Klarna<\/strong>, <strong>Clearpay<\/strong>, and <strong>Paypal<\/strong><\/p>"
+          }
+        },
+        "header-block-usp-2": {
+          "type": "usp",
+          "disabled": true,
+          "settings": {
+            "usp": "<p>Clearpay payment supported<\/p>"
+          }
+        },
+        "fc558761-d091-4fac-b14e-4003e5060905": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Shipping to anywhere in Mainland UK<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "header-block-button-1",
+        "header-block-usp-1",
+        "header-block-usp-2",
+        "fc558761-d091-4fac-b14e-4003e5060905"
+      ],
+      "settings": {
+        "layout": "layout_1",
+        "header_width": "boxed",
+        "top_bar_color": "light",
+        "header_color": "white",
+        "search_color": "light_2",
+        "menubar_color": "light",
+        "logo": "shopify:\/\/shop_images\/outletonline_logo_main.svg",
+        "logo_width": 150,
+        "svg_logo": "",
+        "show_top_bar": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "navbar_menu_item_text": "Contact us",
+        "navbar_menu_item_link": "shopify:\/\/pages\/contact",
+        "enable_usp_slider": false,
+        "enable_usp_slider_arrows": false,
+        "enable_usp_slider_autoplay": false,
+        "usp_slider_autoplay_seconds": 3,
+        "enable_sticky_header": true,
+        "sticky": "sticky-header",
+        "cart_icon": "cart|e903",
+        "cart_icon_color": "accent",
+        "menubar_menu": "main-navigation-bar",
+        "menu_layout": "dropdown",
+        "show_dropdown_images": false,
+        "show_dropdown_images_autofill": false,
+        "menubar_center": false,
+        "menubar_divide_evenly": false,
+        "main_menu_items_clickable": true,
+        "menubar_caps": true,
+        "sale_highlight": true,
+        "menu_font": "body",
+        "menu_items_limit": 5,
+        "enable_socials": false,
+        "extra_image_width": 130,
+        "extra_image_svg": "",
+        "extra_image_link": "",
+        "disable_online_store": false,
+        "mobile_logo": "shopify:\/\/shop_images\/outletonline_logo_main.svg",
+        "logo_width_mobile": 150,
+        "mobile_svg_logo": "",
+        "search_compact_mobile": true
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

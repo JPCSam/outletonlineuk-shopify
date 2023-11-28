@@ -10,8 +10,10 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>
-      {{ page_title }}
-      {% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+      {% if page_title contains shop.name %}
+        {{ page_title }}
+      {% endif %}
+      {% unless page_title contains shop.name %}{{ page_title }} | Outlet Online UK{% endunless %}
     </title>
     {%- if page_description -%}<meta name="description" content="{{ page_description | escape }}">{%- endif -%}
     <meta name="theme-color" content="{{ settings.accent_color }}">
