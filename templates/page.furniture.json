@@ -2,6 +2,7 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
+      "disabled": true,
       "settings": {
         "hide_mobile": true
       }
@@ -42,46 +43,6 @@
         "content_on_hover_color_palette": "dark",
         "layout_mobile": "rows",
         "mobile_height": "size-s",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "be7afbf5-b806-4c9e-ac06-9f1967aa0a50": {
-      "type": "section-rich-text",
-      "blocks": {
-        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-title-1": {
-          "type": "title",
-          "settings": {
-            "title_size": "size-50",
-            "title": "Shop our Bundles to get even bigger discounts!"
-          }
-        },
-        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-content-1": {
-          "type": "content",
-          "settings": {
-            "page": "",
-            "text": "<p>We offer a range of bundled, mix-and-match furniture collections, where you can pick what you want and earn even more discounts on top of what you've already got!<\/p>"
-          }
-        },
-        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-button-1": {
-          "type": "button",
-          "settings": {
-            "link_text": "See Bundles",
-            "link_url": "shopify:\/\/pages\/furniture-bundles",
-            "button_color_palette": "accent"
-          }
-        }
-      },
-      "block_order": [
-        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-title-1",
-        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-content-1",
-        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-button-1"
-      ],
-      "settings": {
-        "color_palette": "white",
-        "text_alignment": "center",
-        "height": "size-s",
-        "width": "wide",
         "spacing_desktop": 50,
         "spacing_mobile": 30
       }
@@ -355,7 +316,7 @@
       ],
       "settings": {
         "items_layout": "static-grid",
-        "items_width": 3,
+        "items_width": 4,
         "height": "size-s",
         "width": "boxed",
         "space_between": 16,
@@ -419,16 +380,56 @@
         "spacing_desktop": 50,
         "spacing_mobile": 30
       }
+    },
+    "be7afbf5-b806-4c9e-ac06-9f1967aa0a50": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-title-1": {
+          "type": "title",
+          "settings": {
+            "title_size": "size-50",
+            "title": "Shop our Bundles to get even bigger discounts!"
+          }
+        },
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-content-1": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>We offer a range of bundled, mix-and-match furniture collections, where you can pick what you want and earn even more discounts on top of what you've already got!<\/p>"
+          }
+        },
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text": "See Bundles",
+            "link_url": "shopify:\/\/pages\/furniture-bundles",
+            "button_color_palette": "accent"
+          }
+        }
+      },
+      "block_order": [
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-title-1",
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-content-1",
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-button-1"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "text_alignment": "center",
+        "height": "size-s",
+        "width": "wide",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "66e8d05c-2f68-4b8c-a706-b4713daf3331",
-    "be7afbf5-b806-4c9e-ac06-9f1967aa0a50",
     "049b2f84-af18-4b19-a9fb-b41e5fb4c931",
     "08bf88dc-e36a-46b3-895a-4c5e3408cc6f",
     "5a9f9980-b1a8-4469-b833-a4a657ea7c79",
     "main-page",
-    "917883d7-2d01-40e6-9503-85692633c565"
+    "917883d7-2d01-40e6-9503-85692633c565",
+    "be7afbf5-b806-4c9e-ac06-9f1967aa0a50"
   ]
 }

@@ -2,8 +2,75 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
+      "disabled": true,
       "settings": {
         "hide_mobile": false
+      }
+    },
+    "d8378f0e-3fd1-4358-afdf-e2fd104d3f1b": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--21659771765053__d8378f0e-3fd1-4358-afdf-e2fd104d3f1b-image-1": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "button_color_palette": "accent",
+            "text_position": "text-center",
+            "title_size": "h1",
+            "title": "Image banner",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "show_link": false,
+            "title_size_mobile": "mobile-size-18"
+          }
+        }
+      },
+      "block_order": [
+        "template--21659771765053__d8378f0e-3fd1-4358-afdf-e2fd104d3f1b-image-1"
+      ],
+      "settings": {
+        "items_layout": "playful-grid",
+        "items_width": 1,
+        "height": "size-m",
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "show_content_on_hover": false,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "3e62d513-447e-4f12-bf5f-400a617957e2": {
+      "type": "section-countdown",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/christmas_coll.jpg",
+        "overlay_opacity": 0,
+        "height": "s",
+        "width": "boxed",
+        "countdown_bg_color": "#e93d3d",
+        "countdown_text_color": "#ffffff",
+        "color_palette": "dark",
+        "button_color_palette": "accent",
+        "text_position": "start",
+        "title_size": "h1",
+        "title": "",
+        "text": "",
+        "link_text": "",
+        "link_url": "shopify:\/\/collections",
+        "show_link": false,
+        "countdown_start": "",
+        "countdown_end": "December 31th, 11:59:59",
+        "hide_banner_after_countdown": false,
+        "ended_title": "",
+        "ended_text": "",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
       }
     },
     "main-page": {
@@ -25,7 +92,10 @@
         "title",
         "content"
       ],
+      "disabled": true,
       "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
         "text_alignment": "start",
         "spacing_desktop": 50,
         "spacing_mobile": 30
@@ -34,6 +104,8 @@
   },
   "order": [
     "breadcrumbs",
+    "d8378f0e-3fd1-4358-afdf-e2fd104d3f1b",
+    "3e62d513-447e-4f12-bf5f-400a617957e2",
     "main-page"
   ]
 }

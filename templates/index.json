@@ -131,7 +131,7 @@
         "9fc0e35a-f92e-4d1d-a5ea-98578f761326": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/featured_pet_collection_smaller.png",
+            "image": "shopify:\/\/shop_images\/christmas_coll.jpg",
             "overlay_opacity": 0,
             "color_palette": "white",
             "button_color_palette": "accent",
@@ -140,9 +140,9 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/pets",
+            "link_url": "shopify:\/\/collections\/christmas",
             "show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/featured_pet_collection_mob_smaller.png",
+            "image_mobile": "shopify:\/\/shop_images\/christmas_coll_mob.jpg",
             "title_size_mobile": "mobile-size-16"
           }
         }

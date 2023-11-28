@@ -2,6 +2,7 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
+      "disabled": true,
       "settings": {
         "hide_mobile": false
       }
@@ -51,6 +52,7 @@
       "blocks": {
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "text_alignment": "left"
           }
@@ -81,11 +83,11 @@
         "423fb7f6-2c97-4420-8211-d45378349d2a"
       ],
       "settings": {
-        "pagination_qty": 12,
+        "pagination_qty": 24,
         "pagination_type": "pages",
         "show_amount_of_products_in_collection": true,
         "productview_type": "grid",
-        "products_per_row": 3,
+        "products_per_row": 4,
         "show_collection_image": false,
         "enable_filters": true,
         "enable_menu": false,
