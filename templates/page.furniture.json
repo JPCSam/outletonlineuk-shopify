@@ -1,430 +1,435 @@
 {
-	"sections": {
-		"breadcrumbs": {
-			"type": "breadcrumbs",
-			"settings": {
-				"hide_mobile": true
-			}
-		},
-		"66e8d05c-2f68-4b8c-a706-b4713daf3331": {
-			"type": "section-gallery",
-			"blocks": {
-				"template--19914764845373__66e8d05c-2f68-4b8c-a706-b4713daf3331-1689082070c8e274bd-0": {
-					"type": "image",
-					"settings": {
-						"image": "shopify://shop_images/living_room_smaller.jpg",
-						"overlay_opacity": 30,
-						"color_palette": "black",
-						"button_color_palette": "accent",
-						"text_position": "text-center",
-						"title_size": "h1",
-						"title": "Furniture",
-						"text": "<p>Need to liven up your living space? Try out some of our offers!</p>",
-						"link_text": "",
-						"link_url": "",
-						"show_link": false,
-						"title_size_mobile": "mobile-size-18"
-					}
-				}
-			},
-			"block_order": [
-				"template--19914764845373__66e8d05c-2f68-4b8c-a706-b4713daf3331-1689082070c8e274bd-0"
-			],
-			"settings": {
-				"items_layout": "playful-grid",
-				"items_width": 2,
-				"height": "size-s",
-				"width": "boxed",
-				"space_between": 16,
-				"image_zoom": false,
-				"image_move": false,
-				"show_content_on_hover": false,
-				"content_on_hover_color_palette": "dark",
-				"layout_mobile": "rows",
-				"mobile_height": "size-s",
-				"spacing_desktop": 50,
-				"spacing_mobile": 30
-			}
-		},
-		"be7afbf5-b806-4c9e-ac06-9f1967aa0a50": {
-			"type": "section-rich-text",
-			"blocks": {
-				"template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-title-1": {
-					"type": "title",
-					"settings": {
-						"title_size": "size-50",
-						"title": "Shop our Bundles to get even bigger discounts!"
-					}
-				},
-				"template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-content-1": {
-					"type": "content",
-					"settings": {
-						"page": "",
-						"text": "<p>We offer a range of bundled, mix-and-match furniture collections, where you can pick what you want and earn even more discounts on top of what you've already got!</p>"
-					}
-				},
-				"template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-button-1": {
-					"type": "button",
-					"settings": {
-						"link_text": "See Bundles",
-						"link_url": "shopify://pages/furniture-bundles",
-						"button_color_palette": "accent"
-					}
-				}
-			},
-			"block_order": [
-				"template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-title-1",
-				"template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-content-1",
-				"template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-button-1"
-			],
-			"settings": {
-				"color_palette": "white",
-				"text_alignment": "center",
-				"height": "size-s",
-				"width": "wide",
-				"spacing_desktop": 50,
-				"spacing_mobile": 30
-			}
-		},
-		"049b2f84-af18-4b19-a9fb-b41e5fb4c931": {
-			"type": "section-gallery",
-			"blocks": {
-				"template--21242383761725__049b2f84-af18-4b19-a9fb-b41e5fb4c931-image-1": {
-					"type": "image",
-					"settings": {
-						"image": "shopify://shop_images/furniture_bundles.webp",
-						"overlay_opacity": 0,
-						"color_palette": "white",
-						"button_color_palette": "accent",
-						"text_position": "text-center",
-						"title_size": "h1",
-						"title": "",
-						"text": "",
-						"link_text": "",
-						"link_url": "",
-						"show_link": false,
-						"image_mobile": "shopify://shop_images/furniture_bundles_mob.webp",
-						"title_size_mobile": "mobile-size-18"
-					}
-				}
-			},
-			"block_order": [
-				"template--21242383761725__049b2f84-af18-4b19-a9fb-b41e5fb4c931-image-1"
-			],
-			"disabled": true,
-			"settings": {
-				"items_layout": "static-grid",
-				"items_width": 2,
-				"height": "size-s",
-				"width": "boxed",
-				"space_between": 16,
-				"image_zoom": false,
-				"image_move": false,
-				"show_content_on_hover": false,
-				"content_on_hover_color_palette": "dark",
-				"layout_mobile": "rows",
-				"mobile_height": "size-s",
-				"spacing_desktop": 50,
-				"spacing_mobile": 30
-			}
-		},
-		"08bf88dc-e36a-46b3-895a-4c5e3408cc6f": {
-			"type": "section-image-hotspots",
-			"blocks": {
-				"template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-0": {
-					"type": "hotspot",
-					"settings": {
-						"product": "",
-						"text_position": "text-start",
-						"title": "Contemporary Design",
-						"text": "<p>This contemporary bookmatch hutch not only adds a stylish element to your room but also offers ample storage space.</p>",
-						"position_left": 70,
-						"position_top": 20,
-						"position_left_mobile": 70,
-						"position_top_mobile": 20
-					}
-				},
-				"template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-1": {
-					"type": "hotspot",
-					"settings": {
-						"product": "",
-						"text_position": "text-start",
-						"title": "Sturdy Construction",
-						"text": "<p>The tapered metal legs with adjustable feet ensure stability, even on uneven ground. This china cabinet also includes wall anchoring hardware, providing an added element of safety and security.</p>",
-						"position_left": 30,
-						"position_top": 50,
-						"position_left_mobile": 30,
-						"position_top_mobile": 50
-					}
-				},
-				"template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-2": {
-					"type": "hotspot",
-					"settings": {
-						"product": "",
-						"text_position": "text-start",
-						"title": "Convenient Features",
-						"text": "<p>The two doors feature soft-close hinges, allowing for gentle and quiet operation. The inclusion of wall anchoring hardware ensures easy installation and peace of mind.</p>",
-						"position_left": 62,
-						"position_top": 75,
-						"position_left_mobile": 50,
-						"position_top_mobile": 70
-					}
-				}
-			},
-			"block_order": [
-				"template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-0",
-				"template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-1",
-				"template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-2"
-			],
-			"disabled": true,
-			"settings": {
-				"image": "shopify://shop_images/bookmatch-bookshelf-with-doors-651981.jpg",
-				"overlay_opacity": 0,
-				"color_palette": "white",
-				"button_color_palette": "accent",
-				"hotspot_height": 30,
-				"hotspot_color_palette": "white",
-				"hotspot_hover_color_palette": "black",
-				"layout": "right",
-				"height": "m",
-				"width": "boxed",
-				"enable_custom_height": false,
-				"custom_height": 300,
-				"text_position": "text-center",
-				"title_size": "h1",
-				"title": "68\" Bookmatch Hutch",
-				"text": "<p>Introducing our 68\" Bookmatch Hutch - the perfect addition to bring a touch of global flair and organization to your space.</p>",
-				"link_text": "Buy Now",
-				"link_url": "shopify://products/bookmatch-hutch",
-				"show_link": false,
-				"height_mobile": "m",
-				"title_size_mobile": "mobile-size-18",
-				"spacing_desktop": 50,
-				"spacing_mobile": 30
-			}
-		},
-		"5a9f9980-b1a8-4469-b833-a4a657ea7c79": {
-			"type": "section-gallery",
-			"blocks": {
-				"template--19914764845373__5a9f9980-b1a8-4469-b833-a4a657ea7c79-1689082070c8e274bd-1": {
-					"type": "image",
-					"settings": {
-						"image": "shopify://shop_images/64-rustic-farmhouse-tv-stand-with-inbuilt-fireplace-284423.jpg",
-						"overlay_opacity": 20,
-						"color_palette": "black",
-						"button_color_palette": "white",
-						"text_position": "align-bottom text-center",
-						"title_size": "h2",
-						"title": "TV Stands",
-						"text": "",
-						"link_text": "See Products",
-						"link_url": "shopify://collections/tv-stands",
-						"show_link": true,
-						"title_size_mobile": "mobile-size-18"
-					}
-				},
-				"template--19914764845373__5a9f9980-b1a8-4469-b833-a4a657ea7c79-1689082070c8e274bd-2": {
-					"type": "image",
-					"settings": {
-						"image": "shopify://shop_images/acacia-outdoor-adirondack-chair-986467.png",
-						"overlay_opacity": 20,
-						"color_palette": "black",
-						"button_color_palette": "white",
-						"text_position": "align-bottom text-center",
-						"title_size": "h2",
-						"title": "Chairs",
-						"text": "",
-						"link_text": "See Products",
-						"link_url": "shopify://collections/chairs",
-						"show_link": true,
-						"title_size_mobile": "mobile-size-18"
-					}
-				},
-				"013c3f29-b159-4dfa-8945-67b70ad2ff49": {
-					"type": "image",
-					"settings": {
-						"image": "shopify://shop_images/angle-iron-desk-with-filing-cabinet-175866.jpg",
-						"overlay_opacity": 20,
-						"color_palette": "black",
-						"button_color_palette": "white",
-						"text_position": "align-bottom text-center",
-						"title_size": "h2",
-						"title": "Desks",
-						"text": "",
-						"link_text": "See Products",
-						"link_url": "shopify://collections/desks",
-						"show_link": true,
-						"title_size_mobile": "mobile-size-18"
-					}
-				},
-				"a00fa6d3-4293-4bdf-b9be-e4e1b1fabcb7": {
-					"type": "image",
-					"settings": {
-						"image": "shopify://shop_images/60-modern-tv-stand-with-record-storage-354888.jpg",
-						"overlay_opacity": 20,
-						"color_palette": "black",
-						"button_color_palette": "white",
-						"text_position": "align-bottom text-center",
-						"title_size": "h2",
-						"title": "Storage",
-						"text": "",
-						"link_text": "See Products",
-						"link_url": "shopify://collections/storage",
-						"show_link": true,
-						"title_size_mobile": "mobile-size-18"
-					}
-				},
-				"f6af5c3d-655a-4e77-806f-f83592846e0d": {
-					"type": "image",
-					"settings": {
-						"image": "shopify://shop_images/modern-reversible-shelf-coffee-table-659809.jpg",
-						"overlay_opacity": 20,
-						"color_palette": "black",
-						"button_color_palette": "white",
-						"text_position": "align-bottom text-center",
-						"title_size": "h2",
-						"title": "Tables",
-						"text": "",
-						"link_text": "See Products",
-						"link_url": "shopify://collections/tables",
-						"show_link": true,
-						"title_size_mobile": "mobile-size-18"
-					}
-				},
-				"90990b06-d9b2-400e-8bc0-f873411679d5": {
-					"type": "image",
-					"settings": {
-						"image": "shopify://shop_images/asiatic-nordic-navy-luxury-rug-604769.webp",
-						"overlay_opacity": 20,
-						"color_palette": "black",
-						"button_color_palette": "white",
-						"text_position": "align-bottom text-center",
-						"title_size": "h2",
-						"title": "Rugs",
-						"text": "",
-						"link_text": "See Products",
-						"link_url": "shopify://collections/rugs",
-						"show_link": true,
-						"title_size_mobile": "mobile-size-18"
-					}
-				},
-				"e13f67b2-7450-4f76-b771-3ab270f33090": {
-					"type": "image",
-					"settings": {
-						"image": "shopify://shop_images/DSC_0262-2_smaller_f23002e6-0b4d-421e-b93f-0674597a3586.jpg",
-						"overlay_opacity": 20,
-						"color_palette": "black",
-						"button_color_palette": "white",
-						"text_position": "align-bottom text-center",
-						"title_size": "h2",
-						"title": "Mirrors",
-						"text": "",
-						"link_text": "See Products",
-						"link_url": "shopify://collections/mirrors",
-						"show_link": true,
-						"title_size_mobile": "mobile-size-18"
-					}
-				},
-				"92b6e268-831b-4a09-be8f-4d41042d3ef0": {
-					"type": "image",
-					"settings": {
-						"image": "shopify://shop_images/indooroutdoor-rattan-scoop-chair-set-of-2-631736.jpg",
-						"overlay_opacity": 20,
-						"color_palette": "black",
-						"button_color_palette": "white",
-						"text_position": "align-bottom text-center",
-						"title_size": "h2",
-						"title": "Outdoors",
-						"text": "",
-						"link_text": "See Products",
-						"link_url": "shopify://collections/outdoor-furniture",
-						"show_link": true,
-						"title_size_mobile": "mobile-size-18"
-					}
-				}
-			},
-			"block_order": [
-				"template--19914764845373__5a9f9980-b1a8-4469-b833-a4a657ea7c79-1689082070c8e274bd-1",
-				"template--19914764845373__5a9f9980-b1a8-4469-b833-a4a657ea7c79-1689082070c8e274bd-2",
-				"013c3f29-b159-4dfa-8945-67b70ad2ff49",
-				"a00fa6d3-4293-4bdf-b9be-e4e1b1fabcb7",
-				"f6af5c3d-655a-4e77-806f-f83592846e0d",
-				"90990b06-d9b2-400e-8bc0-f873411679d5",
-				"e13f67b2-7450-4f76-b771-3ab270f33090",
-				"92b6e268-831b-4a09-be8f-4d41042d3ef0"
-			],
-			"settings": {
-				"items_layout": "static-grid",
-				"items_width": 3,
-				"height": "size-s",
-				"width": "boxed",
-				"space_between": 16,
-				"image_zoom": false,
-				"image_move": true,
-				"show_content_on_hover": false,
-				"content_on_hover_color_palette": "dark",
-				"layout_mobile": "rows",
-				"mobile_height": "size-s",
-				"spacing_desktop": 50,
-				"spacing_mobile": 30
-			}
-		},
-		"main-page": {
-			"type": "main-page",
-			"blocks": {
-				"title": {
-					"type": "title",
-					"settings": {
-						"title_size": "h1"
-					}
-				},
-				"content": {
-					"type": "content",
-					"settings": {}
-				}
-			},
-			"block_order": ["title", "content"],
-			"disabled": true,
-			"settings": {
-				"max_width": 980,
-				"content_alignment": "start",
-				"text_alignment": "start",
-				"spacing_desktop": 50,
-				"spacing_mobile": 30
-			}
-		},
-		"917883d7-2d01-40e6-9503-85692633c565": {
-			"type": "section-featured-collection",
-			"settings": {
-				"collection": "furniture",
-				"limit": 5,
-				"number_of_items": 5,
-				"text_alignment": "start",
-				"title_size": "h1",
-				"title": "All Furniture",
-				"text": "",
-				"link_text": "View all",
-				"button_color_palette": "accent",
-				"show_link": true,
-				"enable_quick_buy_desktop": true,
-				"enable_quick_buy_mobile": true,
-				"enable_quick_buy_drawer": false,
-				"enable_quick_buy_qty_selector": true,
-				"enable_color_picker": false,
-				"enable_quick_buy_compact": false,
-				"spacing_desktop": 50,
-				"spacing_mobile": 30
-			}
-		}
-	},
-	"order": [
-		"breadcrumbs",
-		"66e8d05c-2f68-4b8c-a706-b4713daf3331",
-		"be7afbf5-b806-4c9e-ac06-9f1967aa0a50",
-		"049b2f84-af18-4b19-a9fb-b41e5fb4c931",
-		"08bf88dc-e36a-46b3-895a-4c5e3408cc6f",
-		"5a9f9980-b1a8-4469-b833-a4a657ea7c79",
-		"main-page",
-		"917883d7-2d01-40e6-9503-85692633c565"
-	]
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "hide_mobile": true
+      }
+    },
+    "66e8d05c-2f68-4b8c-a706-b4713daf3331": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--19914764845373__66e8d05c-2f68-4b8c-a706-b4713daf3331-1689082070c8e274bd-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living_room_smaller.jpg",
+            "overlay_opacity": 30,
+            "color_palette": "black",
+            "button_color_palette": "accent",
+            "text_position": "text-center",
+            "title_size": "h1",
+            "title": "Furniture",
+            "text": "<p>Need to liven up your living space? Try out some of our offers!<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "show_link": false,
+            "title_size_mobile": "mobile-size-18"
+          }
+        }
+      },
+      "block_order": [
+        "template--19914764845373__66e8d05c-2f68-4b8c-a706-b4713daf3331-1689082070c8e274bd-0"
+      ],
+      "settings": {
+        "items_layout": "playful-grid",
+        "items_width": 2,
+        "height": "size-s",
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": false,
+        "image_move": false,
+        "show_content_on_hover": false,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "049b2f84-af18-4b19-a9fb-b41e5fb4c931": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--21242383761725__049b2f84-af18-4b19-a9fb-b41e5fb4c931-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/furniture_bundles.webp",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "button_color_palette": "accent",
+            "text_position": "text-center",
+            "title_size": "h1",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": "",
+            "show_link": false,
+            "image_mobile": "shopify:\/\/shop_images\/furniture_bundles_mob.webp",
+            "title_size_mobile": "mobile-size-18"
+          }
+        }
+      },
+      "block_order": [
+        "template--21242383761725__049b2f84-af18-4b19-a9fb-b41e5fb4c931-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "items_layout": "static-grid",
+        "items_width": 2,
+        "height": "size-s",
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": false,
+        "image_move": false,
+        "show_content_on_hover": false,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "08bf88dc-e36a-46b3-895a-4c5e3408cc6f": {
+      "type": "section-image-hotspots",
+      "blocks": {
+        "template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-0": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "text_position": "text-start",
+            "title": "Contemporary Design",
+            "text": "<p>This contemporary bookmatch hutch not only adds a stylish element to your room but also offers ample storage space.<\/p>",
+            "position_left": 70,
+            "position_top": 20,
+            "position_left_mobile": 70,
+            "position_top_mobile": 20
+          }
+        },
+        "template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-1": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "text_position": "text-start",
+            "title": "Sturdy Construction",
+            "text": "<p>The tapered metal legs with adjustable feet ensure stability, even on uneven ground. This china cabinet also includes wall anchoring hardware, providing an added element of safety and security.<\/p>",
+            "position_left": 30,
+            "position_top": 50,
+            "position_left_mobile": 30,
+            "position_top_mobile": 50
+          }
+        },
+        "template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-2": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "text_position": "text-start",
+            "title": "Convenient Features",
+            "text": "<p>The two doors feature soft-close hinges, allowing for gentle and quiet operation. The inclusion of wall anchoring hardware ensures easy installation and peace of mind.<\/p>",
+            "position_left": 62,
+            "position_top": 75,
+            "position_left_mobile": 50,
+            "position_top_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-0",
+        "template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-1",
+        "template--19914764845373__08bf88dc-e36a-46b3-895a-4c5e3408cc6f-1689082061c2405682-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bookmatch-bookshelf-with-doors-651981.jpg",
+        "overlay_opacity": 0,
+        "color_palette": "white",
+        "button_color_palette": "accent",
+        "hotspot_height": 30,
+        "hotspot_color_palette": "white",
+        "hotspot_hover_color_palette": "black",
+        "layout": "right",
+        "height": "m",
+        "width": "boxed",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-center",
+        "title_size": "h1",
+        "title": "68\" Bookmatch Hutch",
+        "text": "<p>Introducing our 68\" Bookmatch Hutch - the perfect addition to bring a touch of global flair and organization to your space.<\/p>",
+        "link_text": "Buy Now",
+        "link_url": "shopify:\/\/products\/bookmatch-hutch",
+        "show_link": false,
+        "height_mobile": "m",
+        "title_size_mobile": "mobile-size-18",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "5a9f9980-b1a8-4469-b833-a4a657ea7c79": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--19914764845373__5a9f9980-b1a8-4469-b833-a4a657ea7c79-1689082070c8e274bd-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/64-rustic-farmhouse-tv-stand-with-inbuilt-fireplace-284423.jpg",
+            "overlay_opacity": 20,
+            "color_palette": "black",
+            "button_color_palette": "white",
+            "text_position": "align-bottom text-center",
+            "title_size": "h2",
+            "title": "TV Stands",
+            "text": "",
+            "link_text": "See Products",
+            "link_url": "shopify:\/\/collections\/tv-stands",
+            "show_link": true,
+            "title_size_mobile": "mobile-size-18"
+          }
+        },
+        "template--19914764845373__5a9f9980-b1a8-4469-b833-a4a657ea7c79-1689082070c8e274bd-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/acacia-outdoor-adirondack-chair-986467.png",
+            "overlay_opacity": 20,
+            "color_palette": "black",
+            "button_color_palette": "white",
+            "text_position": "align-bottom text-center",
+            "title_size": "h2",
+            "title": "Chairs",
+            "text": "",
+            "link_text": "See Products",
+            "link_url": "shopify:\/\/collections\/chairs",
+            "show_link": true,
+            "title_size_mobile": "mobile-size-18"
+          }
+        },
+        "013c3f29-b159-4dfa-8945-67b70ad2ff49": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/angle-iron-desk-with-filing-cabinet-175866.jpg",
+            "overlay_opacity": 20,
+            "color_palette": "black",
+            "button_color_palette": "white",
+            "text_position": "align-bottom text-center",
+            "title_size": "h2",
+            "title": "Desks",
+            "text": "",
+            "link_text": "See Products",
+            "link_url": "shopify:\/\/collections\/desks",
+            "show_link": true,
+            "title_size_mobile": "mobile-size-18"
+          }
+        },
+        "a00fa6d3-4293-4bdf-b9be-e4e1b1fabcb7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/60-modern-tv-stand-with-record-storage-354888.jpg",
+            "overlay_opacity": 20,
+            "color_palette": "black",
+            "button_color_palette": "white",
+            "text_position": "align-bottom text-center",
+            "title_size": "h2",
+            "title": "Storage",
+            "text": "",
+            "link_text": "See Products",
+            "link_url": "shopify:\/\/collections\/storage",
+            "show_link": true,
+            "title_size_mobile": "mobile-size-18"
+          }
+        },
+        "f6af5c3d-655a-4e77-806f-f83592846e0d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/modern-reversible-shelf-coffee-table-659809.jpg",
+            "overlay_opacity": 20,
+            "color_palette": "black",
+            "button_color_palette": "white",
+            "text_position": "align-bottom text-center",
+            "title_size": "h2",
+            "title": "Tables",
+            "text": "",
+            "link_text": "See Products",
+            "link_url": "shopify:\/\/collections\/tables",
+            "show_link": true,
+            "title_size_mobile": "mobile-size-18"
+          }
+        },
+        "90990b06-d9b2-400e-8bc0-f873411679d5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/asiatic-nordic-navy-luxury-rug-604769.webp",
+            "overlay_opacity": 20,
+            "color_palette": "black",
+            "button_color_palette": "white",
+            "text_position": "align-bottom text-center",
+            "title_size": "h2",
+            "title": "Rugs",
+            "text": "",
+            "link_text": "See Products",
+            "link_url": "shopify:\/\/collections\/rugs",
+            "show_link": true,
+            "title_size_mobile": "mobile-size-18"
+          }
+        },
+        "e13f67b2-7450-4f76-b771-3ab270f33090": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_0262-2_smaller_f23002e6-0b4d-421e-b93f-0674597a3586.jpg",
+            "overlay_opacity": 20,
+            "color_palette": "black",
+            "button_color_palette": "white",
+            "text_position": "align-bottom text-center",
+            "title_size": "h2",
+            "title": "Mirrors",
+            "text": "",
+            "link_text": "See Products",
+            "link_url": "shopify:\/\/collections\/mirrors",
+            "show_link": true,
+            "title_size_mobile": "mobile-size-18"
+          }
+        },
+        "92b6e268-831b-4a09-be8f-4d41042d3ef0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/indooroutdoor-rattan-scoop-chair-set-of-2-631736.jpg",
+            "overlay_opacity": 20,
+            "color_palette": "black",
+            "button_color_palette": "white",
+            "text_position": "align-bottom text-center",
+            "title_size": "h2",
+            "title": "Outdoors",
+            "text": "",
+            "link_text": "See Products",
+            "link_url": "shopify:\/\/collections\/outdoor-furniture",
+            "show_link": true,
+            "title_size_mobile": "mobile-size-18"
+          }
+        }
+      },
+      "block_order": [
+        "template--19914764845373__5a9f9980-b1a8-4469-b833-a4a657ea7c79-1689082070c8e274bd-1",
+        "template--19914764845373__5a9f9980-b1a8-4469-b833-a4a657ea7c79-1689082070c8e274bd-2",
+        "013c3f29-b159-4dfa-8945-67b70ad2ff49",
+        "a00fa6d3-4293-4bdf-b9be-e4e1b1fabcb7",
+        "f6af5c3d-655a-4e77-806f-f83592846e0d",
+        "90990b06-d9b2-400e-8bc0-f873411679d5",
+        "e13f67b2-7450-4f76-b771-3ab270f33090",
+        "92b6e268-831b-4a09-be8f-4d41042d3ef0"
+      ],
+      "settings": {
+        "items_layout": "static-grid",
+        "items_width": 4,
+        "height": "size-s",
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": false,
+        "image_move": true,
+        "show_content_on_hover": false,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h1"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "917883d7-2d01-40e6-9503-85692633c565": {
+      "type": "section-featured-collection",
+      "settings": {
+        "collection": "furniture",
+        "limit": 5,
+        "number_of_items": 5,
+        "text_alignment": "start",
+        "title_size": "h1",
+        "title": "All Furniture",
+        "text": "",
+        "link_text": "View all",
+        "button_color_palette": "accent",
+        "show_link": true,
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "be7afbf5-b806-4c9e-ac06-9f1967aa0a50": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-title-1": {
+          "type": "title",
+          "settings": {
+            "title_size": "size-50",
+            "title": "Shop our Bundles to get even bigger discounts!"
+          }
+        },
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-content-1": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>We offer a range of bundled, mix-and-match furniture collections, where you can pick what you want and earn even more discounts on top of what you've already got!<\/p>"
+          }
+        },
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text": "See Bundles",
+            "link_url": "shopify:\/\/pages\/furniture-bundles",
+            "button_color_palette": "accent"
+          }
+        }
+      },
+      "block_order": [
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-title-1",
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-content-1",
+        "template--21242383761725__be7afbf5-b806-4c9e-ac06-9f1967aa0a50-button-1"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "text_alignment": "center",
+        "height": "size-s",
+        "width": "wide",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "66e8d05c-2f68-4b8c-a706-b4713daf3331",
+    "049b2f84-af18-4b19-a9fb-b41e5fb4c931",
+    "08bf88dc-e36a-46b3-895a-4c5e3408cc6f",
+    "5a9f9980-b1a8-4469-b833-a4a657ea7c79",
+    "main-page",
+    "917883d7-2d01-40e6-9503-85692633c565",
+    "be7afbf5-b806-4c9e-ac06-9f1967aa0a50"
+  ]
 }

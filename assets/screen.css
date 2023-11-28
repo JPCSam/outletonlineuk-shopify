@@ -7050,7 +7050,6 @@ legend+.lead {
 .s1pr span.old-price {
 	color: var(--price_color_old);
 	font-weight: var(--main_fw);
-	font-size: var(--price_fz);
 	text-decoration: line-through;
 }
 
@@ -7540,8 +7539,7 @@ span.s1pr,
 .l4ca .price {
 	color: var(--price_color);
 	font-weight: var(--price_fw);
-	/* font-size: var(--price_fz); */
-	font-size: 20px;
+	font-size: var(--price_fz);
 	font-family: var(--price_ff);
 	font-style: var(--price_fs);
 	letter-spacing: var(--price_ls);
@@ -24215,16 +24213,4 @@ table tr:first-child th:last-child { border-top-right-radius: var(--b2r); }
 	.product-tab>a {
 		font-size: 16px;
 	}
-}
-
-.clamped-title {
-	height: 40px;
-	display: -webkit-box;
-	-webkit-line-clamp: 2;
-	-webkit-box-orient: vertical;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	font-size: 14px;
-	line-height: 20px;
-	font-weight: 600;
 }

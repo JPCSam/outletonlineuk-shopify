@@ -655,10 +655,10 @@
                     </div>
                 {%- when 'price' -%}
                     <p class="f8pr-price s1pr price" {{ block.shopify_attributes }}>
-                        {{ current_variant.price | money }}{% if block.settings.show_tax %} {% if cart.taxes_included %}{{ 'product.including_tax' | t }}{% else %}{{ 'product.excluding_tax' | t }}{% endif %}{% endif %}
                         {%- if current_variant.compare_at_price > current_variant.price -%}
                             <span class="old-price">{{ current_variant.compare_at_price | money }}</span>
                         {%- endif -%}
+                        {{ current_variant.price | money }}{% if block.settings.show_tax %} {% if cart.taxes_included %}{{ 'product.including_tax' | t }}{% else %}{{ 'product.excluding_tax' | t }}{% endif %}{% endif %}
                         {%- if current_variant.unit_price_measurement -%}
                             {%- liquid
                                 capture unit_price_base_unit
