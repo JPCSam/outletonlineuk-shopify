@@ -246,7 +246,7 @@
           </span>
         {%- endif -%}
         {%- if show_title -%}
-          <a href="{{ product.url }}" {% if settings.product_titles_caps %}class="text-uppercase"{% endif %}>{{ title }}</a>
+          <a href="{{ product.url }}" {% if settings.product_titles_caps %}class="text-uppercase"{% endif %}><p class="clamped-title">{{ title }}</p></a>
         {%- endif -%}
         {%- if layout == 'list-compact' and product.has_only_default_variant == false -%}
           {% if enable_variant_picker == false or enable_variant_picker and available_variants.size == 1 %}
