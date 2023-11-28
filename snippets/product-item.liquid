@@ -246,7 +246,7 @@
           </span>
         {%- endif -%}
         {%- if show_title -%}
-          <a href="{{ product.url }}" {% if settings.product_titles_caps %}class="text-uppercase"{% endif %}>{{ title }}</a>
+          <a href="{{ product.url }}" {% if settings.product_titles_caps %}class="text-uppercase"{% endif %}><p class="clamped-title">{{ title }}</p></a>
         {%- endif -%}
         {%- if layout == 'list-compact' and product.has_only_default_variant == false -%}
           {% if enable_variant_picker == false or enable_variant_picker and available_variants.size == 1 %}
@@ -311,10 +311,10 @@
           -%}
           {{ price_min }}<span class="price-varies">&nbsp;- {{ price_max }}</span>
         {%- else -%}
+          {{ price }}
           {%- if current_variant.compare_at_price > current_variant.price -%}
             <span class="old-price">{{ current_variant.compare_at_price | money }}</span>
           {%- endif -%}
-          {{ price }}
         {%- endif -%}
         {%- if current_variant.unit_price_measurement -%}
           {%- capture unit_price_base_unit -%}
