@@ -1,666 +1,651 @@
 {
-  "sections": {
-    "ccc0461f-c8d9-4f52-8e95-eedeb532ced4": {
-      "type": "section-slideshow",
-      "blocks": {
-        "d176b41e-e5b5-49d9-a201-1fa9deffee42": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/furniture_sale_splash.png",
-            "layout": "background",
-            "overlay_opacity": 0,
-            "color_palette": "dark",
-            "button_color_palette": "accent",
-            "text_position": "text-center",
-            "title_size": "h1",
-            "title": "",
-            "text": "",
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/outdoor-furniture-flash-sale",
-            "show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/furniture_sale_splash_mob.png",
-            "title_size_mobile": "mobile-size-18"
-          }
-        },
-        "template--20133140267325__ccc0461f-c8d9-4f52-8e95-eedeb532ced4-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/furniture_sale_splash.webp",
-            "layout": "background",
-            "overlay_opacity": 0,
-            "color_palette": "dark",
-            "button_color_palette": "accent",
-            "text_position": "text-center",
-            "title_size": "h1",
-            "title": "",
-            "text": "",
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/outdoor-furniture",
-            "show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/furniture_sale_splash_mob.webp",
-            "title_size_mobile": "mobile-size-18"
-          }
-        },
-        "47247d1c-77f0-4cec-9f14-cd0434e4c32b": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/halloween_main_splash_smaller.webp",
-            "layout": "background",
-            "overlay_opacity": 0,
-            "color_palette": "dark",
-            "button_color_palette": "accent",
-            "text_position": "text-center",
-            "title_size": "h1",
-            "title": "",
-            "text": "",
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/halloween",
-            "show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/halloween_main_splash_mob_smaller.webp",
-            "title_size_mobile": "mobile-size-18"
-          }
-        },
-        "ee547db4-a2a3-479a-8e4c-a59e518bce2e": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/interior_design_smaller.jpg",
-            "layout": "background",
-            "overlay_opacity": 30,
-            "color_palette": "dark",
-            "button_color_palette": "accent",
-            "text_position": "text-center",
-            "title_size": "h1",
-            "title": "Great Products, Low Prices",
-            "text": "<p>Need to liven up your living space? Try out some of our offers!<\/p>",
-            "link_text": "View Collection",
-            "link_url": "shopify:\/\/pages\/furniture-home",
-            "show_link": false,
-            "title_size_mobile": "mobile-size-18"
-          }
-        }
-      },
-      "block_order": [
-        "d176b41e-e5b5-49d9-a201-1fa9deffee42",
-        "template--20133140267325__ccc0461f-c8d9-4f52-8e95-eedeb532ced4-slide-1",
-        "47247d1c-77f0-4cec-9f14-cd0434e4c32b",
-        "ee547db4-a2a3-479a-8e4c-a59e518bce2e"
-      ],
-      "settings": {
-        "height": "m",
-        "width": "wide",
-        "autoplay": true,
-        "autoplay_seconds": 4,
-        "enable_controls": true,
-        "height_mobile": "s",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "16953748228ac94bc5": {
-      "type": "apps",
-      "blocks": {
-        "69e6e51d-bc6c-4733-8840-28bc33d292be": {
-          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
-          "disabled": true,
-          "settings": {
-            "data_key": "top-strip-promotion-auto-size",
-            "locale_option": "geolocation",
-            "locale_fallback": "",
-            "theme": "light",
-            "topPadding": "0",
-            "bottomPadding": "30",
-            "messagePrefix": ""
-          }
-        }
-      },
-      "block_order": [
-        "69e6e51d-bc6c-4733-8840-28bc33d292be"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-      }
-    },
-    "f2b1748b-8db7-40ac-87a6-33926df2823e": {
-      "type": "section-gallery",
-      "blocks": {
-        "9fc0e35a-f92e-4d1d-a5ea-98578f761326": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/workwear_collection.webp",
-            "overlay_opacity": 0,
-            "color_palette": "white",
-            "button_color_palette": "accent",
-            "text_position": "text-start",
-            "title_size": "h1",
-            "title": "",
-            "text": "",
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/workwear",
-            "show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/workwear_collection_mobile_smaller.webp",
-            "title_size_mobile": "mobile-size-16"
-          }
-        }
-      },
-      "block_order": [
-        "9fc0e35a-f92e-4d1d-a5ea-98578f761326"
-      ],
-      "settings": {
-        "items_layout": "playful-grid",
-        "items_width": 2,
-        "height": "size-s",
-        "width": "boxed",
-        "space_between": 16,
-        "image_zoom": false,
-        "image_move": false,
-        "show_content_on_hover": false,
-        "content_on_hover_color_palette": "dark",
-        "layout_mobile": "rows",
-        "mobile_height": "size-m",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "1660291161fe2caafb": {
-      "type": "section-gallery",
-      "blocks": {
-        "1660291161347c9da8-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/main_02_smaller.jpg",
-            "overlay_opacity": 0,
-            "color_palette": "white",
-            "button_color_palette": "accent",
-            "text_position": "text-start",
-            "title_size": "h1",
-            "title": "Weekly Offers",
-            "text": "<p>Need a <strong>great <\/strong>value deal?<\/p>",
-            "link_text": "Find Deals",
-            "link_url": "shopify:\/\/collections\/weekly-offers",
-            "show_link": false,
-            "title_size_mobile": "mobile-size-18"
-          }
-        },
-        "f66c549d-ba7d-4a7f-b1cf-1d1dd0a9d0a9": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/furniture_bedroom_smaller.jpg",
-            "overlay_opacity": 20,
-            "color_palette": "black",
-            "button_color_palette": "white",
-            "text_position": "align-bottom text-center",
-            "title_size": "h2",
-            "title": "Furniture",
-            "text": "",
-            "link_text": "Discover offers",
-            "link_url": "shopify:\/\/pages\/furniture-home",
-            "show_link": true,
-            "title_size_mobile": "mobile-size-18"
-          }
-        },
-        "1660291161347c9da8-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sneakers_smaller.jpg",
-            "overlay_opacity": 0,
-            "color_palette": "black",
-            "button_color_palette": "white",
-            "text_position": "align-bottom text-center",
-            "title_size": "h2",
-            "title": "Shoes",
-            "text": "",
-            "link_text": "Discover offers",
-            "link_url": "shopify:\/\/collections\/shoes",
-            "show_link": true,
-            "title_size_mobile": "mobile-size-18"
-          }
-        },
-        "1660291161347c9da8-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/black-leather-bag-2021-12-13-19-53-23-utc.jpg",
-            "overlay_opacity": 20,
-            "color_palette": "black",
-            "button_color_palette": "white",
-            "text_position": "align-bottom text-center",
-            "title_size": "h2",
-            "title": "Clothing",
-            "text": "",
-            "link_text": "Discover offers",
-            "link_url": "shopify:\/\/collections\/clothing",
-            "show_link": true,
-            "title_size_mobile": "mobile-size-18"
-          }
-        }
-      },
-      "block_order": [
-        "1660291161347c9da8-0",
-        "f66c549d-ba7d-4a7f-b1cf-1d1dd0a9d0a9",
-        "1660291161347c9da8-1",
-        "1660291161347c9da8-2"
-      ],
-      "settings": {
-        "items_layout": "playful-grid",
-        "items_width": 2,
-        "height": "size-s",
-        "width": "boxed",
-        "space_between": 16,
-        "image_zoom": true,
-        "image_move": false,
-        "show_content_on_hover": false,
-        "content_on_hover_color_palette": "dark",
-        "layout_mobile": "rows",
-        "mobile_height": "size-s",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "16602912025c583cc8": {
-      "type": "section-featured-collection",
-      "settings": {
-        "collection": "weekly-offers",
-        "limit": 5,
-        "number_of_items": 5,
-        "text_alignment": "start",
-        "title_size": "h1",
-        "title": "Trending Products",
-        "text": "",
-        "link_text": "",
-        "button_color_palette": "accent",
-        "show_link": true,
-        "enable_quick_buy_desktop": false,
-        "enable_quick_buy_mobile": false,
-        "enable_quick_buy_drawer": false,
-        "enable_quick_buy_qty_selector": true,
-        "enable_color_picker": false,
-        "enable_quick_buy_compact": false,
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "1660291186859914cb": {
-      "type": "section-usp-bar",
-      "blocks": {
-        "166029118628eefa48-0": {
-          "type": "usp",
-          "settings": {
-            "usp": "<h3>JPC Outlet introduces Warehouse Day<\/h3>"
-          }
-        },
-        "8f03d32e-91a8-463c-88a3-d9d88831a108": {
-          "type": "usp",
-          "settings": {
-            "usp": "<h3>Great deals, no delivery!<\/h3>"
-          }
-        },
-        "166029118628eefa48-1": {
-          "type": "usp",
-          "settings": {
-            "usp": "<h3>August 26th, 10am - 2pm<\/h3>"
-          }
-        },
-        "166029118628eefa48-2": {
-          "type": "usp",
-          "settings": {
-            "usp": "<h3>Click here to find out more<\/h3>"
-          }
-        }
-      },
-      "block_order": [
-        "166029118628eefa48-0",
-        "8f03d32e-91a8-463c-88a3-d9d88831a108",
-        "166029118628eefa48-1",
-        "166029118628eefa48-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_palette": "accent",
-        "layout": "slider",
-        "autoplay": true,
-        "autoplay_seconds": 2,
-        "show_arrows": false,
-        "spacing_desktop": 60,
-        "spacing_mobile": 60
-      }
-    },
-    "1662644676f2b34df9": {
-      "type": "section-gallery",
-      "blocks": {
-        "166264467598e706b2-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_0400-2_smaller.jpg",
-            "overlay_opacity": 15,
-            "color_palette": "black",
-            "button_color_palette": "white",
-            "text_position": "text-center",
-            "title_size": "h2",
-            "title": "Home & Living",
-            "text": "<p>Everything to make a house a home<\/p>",
-            "link_text": "Shop now",
-            "link_url": "shopify:\/\/collections\/home-living",
-            "show_link": true,
-            "title_size_mobile": "mobile-size-18"
-          }
-        },
-        "166264467598e706b2-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/outdoor_01_smaller.jpg",
-            "overlay_opacity": 0,
-            "color_palette": "black",
-            "button_color_palette": "white",
-            "text_position": "text-center",
-            "title_size": "h2",
-            "title": "Outdoors",
-            "text": "<p>Need an adventure?<\/p>",
-            "link_text": "Shop now",
-            "link_url": "shopify:\/\/collections\/outdoors",
-            "show_link": true,
-            "title_size_mobile": "mobile-size-18"
-          }
-        },
-        "166264467598e706b2-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fitness_01_smaller.jpg",
-            "overlay_opacity": 0,
-            "color_palette": "black",
-            "button_color_palette": "accent",
-            "text_position": "text-center",
-            "title_size": "h1",
-            "title": "Fitness",
-            "text": "<p>Want to start your fitness journey? Start here!<\/p>",
-            "link_text": "Discover Now",
-            "link_url": "shopify:\/\/collections\/fitness",
-            "show_link": false,
-            "title_size_mobile": "mobile-size-18"
-          }
-        }
-      },
-      "block_order": [
-        "166264467598e706b2-1",
-        "166264467598e706b2-2",
-        "166264467598e706b2-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "items_layout": "playful-grid-inv",
-        "items_width": 2,
-        "height": "size-s",
-        "width": "boxed",
-        "space_between": 16,
-        "image_zoom": true,
-        "image_move": false,
-        "show_content_on_hover": false,
-        "content_on_hover_color_palette": "dark",
-        "layout_mobile": "rows",
-        "mobile_height": "size-s",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "ba670711-6a5d-4b6b-9541-b20c3e795c5e": {
-      "type": "section-rich-text",
-      "blocks": {
-        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-title-1": {
-          "type": "title",
-          "settings": {
-            "title_size": "size-50",
-            "title": "Furniture Bundles Now Available"
-          }
-        },
-        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-content-1": {
-          "type": "content",
-          "settings": {
-            "page": "",
-            "text": "<p>We've released some great value furniture bundles, allowing you to redecorate for even cheaper! Check them out below, or check your favourite pieces to see if they're bundled!<\/p>"
-          }
-        },
-        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-button-1": {
-          "type": "button",
-          "settings": {
-            "link_text": "Visit Bundles",
-            "link_url": "shopify:\/\/pages\/furniture-bundles",
-            "button_color_palette": "accent"
-          }
-        }
-      },
-      "block_order": [
-        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-title-1",
-        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-content-1",
-        "template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-button-1"
-      ],
-      "settings": {
-        "color_palette": "white",
-        "text_alignment": "center",
-        "height": "size-s",
-        "width": "wide",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "16605537948e81aa7a": {
-      "type": "section-image-with-products",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC_0262-2_smaller_f23002e6-0b4d-421e-b93f-0674597a3586.jpg",
-        "overlay_opacity": 30,
-        "color_palette": "black",
-        "button_color_palette": "white",
-        "layout": "image-left",
-        "products": [
-          "betty-polished-edge-mirror-61cm-x-152cm",
-          "archie-gold-freestanding-mirror-179cm-x-110cm",
-          "francesca-polished-edge-mirror-61cm-x-152cm"
-        ],
-        "text_position": "text-center",
-        "title_size": "h1",
-        "title": "Upgrading your mirror game?",
-        "text": "<p>We have a collection of premium mirrors to give your home the boost it deserves.<\/p>",
-        "link_text": "See Our Mirrors",
-        "link_url": "shopify:\/\/collections\/mirrors",
-        "show_link": true,
-        "enable_quick_buy_desktop": true,
-        "enable_quick_buy_mobile": true,
-        "enable_quick_buy_drawer": false,
-        "enable_quick_buy_qty_selector": true,
-        "enable_color_picker": false,
-        "enable_quick_buy_compact": true,
-        "width_mobile": "boxed",
-        "mobile_height": "size-s",
-        "title_size_mobile": "mobile-size-18",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "1660291177d9f45101": {
-      "type": "section-collection-list",
-      "disabled": true,
-      "settings": {
-        "collections": [
-
-        ],
-        "image_ratio": "square",
-        "fill_images": true,
-        "layout": "slider",
-        "number_of_items": 5,
-        "text_alignment": "start",
-        "title_size": "h1",
-        "title": "Collection list",
-        "link_text": "View all",
-        "link_url": "shopify:\/\/collections",
-        "button_color_palette": "accent",
-        "show_link": true,
-        "collection_title_size": "p",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "1662644641662a3424": {
-      "type": "section-promo-gallery",
-      "blocks": {
-        "1662644641f8605a6c-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/returned_splash_smaller.webp",
-            "overlay_opacity": 0,
-            "color_palette": "white",
-            "button_color_palette": "accent",
-            "text_position": "text-center",
-            "title_size": "h2",
-            "title": "Returned & Damaged Items",
-            "text": "<p>We offer even greater reduced prices on things that aren't quite perfect, whether it's ripped packaging or a scratched surface.<\/p>",
-            "link_text": "Visit Collection",
-            "link_url": "shopify:\/\/collections\/returned-damaged",
-            "show_link": false,
-            "title_size_mobile": "mobile-size-18"
-          }
-        },
-        "1662644641f8605a6c-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sale_bag_smaller.jpg",
-            "overlay_opacity": 0,
-            "color_palette": "white",
-            "button_color_palette": "accent",
-            "text_position": "text-center",
-            "title_size": "h2",
-            "title": "Furniture Sale",
-            "text": "<p>Buy 2 pieces from the furniture collection, receive 10% off!<\/p>",
-            "link_text": "Visit Collection",
-            "link_url": "shopify:\/\/collections\/furniture",
-            "show_link": false,
-            "title_size_mobile": "mobile-size-18"
-          }
-        }
-      },
-      "block_order": [
-        "1662644641f8605a6c-1",
-        "1662644641f8605a6c-0"
-      ],
-      "settings": {
-        "items_width": 3,
-        "width": "boxed",
-        "space_between": 16,
-        "image_zoom": true,
-        "layout_mobile": "rows",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "12669de4-b9fc-4a62-ac06-2ae145ea6370": {
-      "type": "section-featured-collection",
-      "settings": {
-        "collection": "new-in-stock",
-        "limit": 5,
-        "number_of_items": 5,
-        "text_alignment": "start",
-        "title_size": "h1",
-        "title": "New to Outlet Online",
-        "text": "",
-        "link_text": "",
-        "button_color_palette": "accent",
-        "show_link": true,
-        "enable_quick_buy_desktop": false,
-        "enable_quick_buy_mobile": false,
-        "enable_quick_buy_drawer": false,
-        "enable_quick_buy_qty_selector": true,
-        "enable_color_picker": false,
-        "enable_quick_buy_compact": false,
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "166029123538307d80": {
-      "type": "section-blog-posts",
-      "disabled": true,
-      "settings": {
-        "blog": "",
-        "number_of_items": 3,
-        "text_alignment": "start",
-        "title_size": "h1",
-        "title": "Blog posts",
-        "link_text": "Button",
-        "link_url": "",
-        "button_color_palette": "accent",
-        "show_link": false,
-        "show_image": true,
-        "show_date": true,
-        "show_author": true,
-        "show_excerpt": false,
-        "button_color_palette_post": "accent",
-        "show_link_post": true,
-        "spacing_desktop": 50,
-        "spacing_mobile": 30
-      }
-    },
-    "845ceaa8-f10d-4999-a6d6-83502db46aec": {
-      "type": "section-usp-bar",
-      "blocks": {
-        "87b4b4cd-eebe-46ef-b448-5fb9ec0a82cc": {
-          "type": "usp",
-          "settings": {
-            "usp": "<p>Everything shipped within 24 hours<\/p>"
-          }
-        },
-        "d557b6ee-cb70-4f79-a0e5-7f1b54ee644c": {
-          "type": "usp",
-          "settings": {
-            "usp": "<p>9am-5pm Customer Service <\/p>"
-          }
-        },
-        "e7c1a6ee-088f-41ef-afce-c73f1c6d64ce": {
-          "type": "usp",
-          "settings": {
-            "usp": "<p>Shipping to anywhere in Mainland UK<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "87b4b4cd-eebe-46ef-b448-5fb9ec0a82cc",
-        "d557b6ee-cb70-4f79-a0e5-7f1b54ee644c",
-        "e7c1a6ee-088f-41ef-afce-c73f1c6d64ce"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "color_palette": "light",
-        "layout": "rows",
-        "autoplay": false,
-        "autoplay_seconds": 3,
-        "show_arrows": false,
-        "spacing_desktop": 0,
-        "spacing_mobile": 0
-      }
-    },
-    "1695305678c7951965": {
-      "type": "apps",
-      "settings": {
-      }
-    }
-  },
-  "order": [
-    "ccc0461f-c8d9-4f52-8e95-eedeb532ced4",
-    "16953748228ac94bc5",
-    "f2b1748b-8db7-40ac-87a6-33926df2823e",
-    "1660291161fe2caafb",
-    "16602912025c583cc8",
-    "1660291186859914cb",
-    "1662644676f2b34df9",
-    "ba670711-6a5d-4b6b-9541-b20c3e795c5e",
-    "16605537948e81aa7a",
-    "1660291177d9f45101",
-    "1662644641662a3424",
-    "12669de4-b9fc-4a62-ac06-2ae145ea6370",
-    "166029123538307d80",
-    "845ceaa8-f10d-4999-a6d6-83502db46aec",
-    "1695305678c7951965"
-  ]
+	"sections": {
+		"ccc0461f-c8d9-4f52-8e95-eedeb532ced4": {
+			"type": "section-slideshow",
+			"blocks": {
+				"d176b41e-e5b5-49d9-a201-1fa9deffee42": {
+					"type": "slide",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/furniture_sale_splash.png",
+						"layout": "background",
+						"overlay_opacity": 0,
+						"color_palette": "dark",
+						"button_color_palette": "accent",
+						"text_position": "text-center",
+						"title_size": "h1",
+						"title": "",
+						"text": "",
+						"link_text": "",
+						"link_url": "shopify://collections/outdoor-furniture-flash-sale",
+						"show_link": false,
+						"image_mobile": "shopify://shop_images/furniture_sale_splash_mob.png",
+						"title_size_mobile": "mobile-size-18"
+					}
+				},
+				"template--20133140267325__ccc0461f-c8d9-4f52-8e95-eedeb532ced4-slide-1": {
+					"type": "slide",
+					"settings": {
+						"image": "shopify://shop_images/furniture_sale_splash.webp",
+						"layout": "background",
+						"overlay_opacity": 0,
+						"color_palette": "dark",
+						"button_color_palette": "accent",
+						"text_position": "text-center",
+						"title_size": "h1",
+						"title": "",
+						"text": "",
+						"link_text": "",
+						"link_url": "shopify://collections/outdoor-furniture",
+						"show_link": false,
+						"image_mobile": "shopify://shop_images/furniture_sale_splash_mob.webp",
+						"title_size_mobile": "mobile-size-18"
+					}
+				},
+				"47247d1c-77f0-4cec-9f14-cd0434e4c32b": {
+					"type": "slide",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/halloween_main_splash_smaller.webp",
+						"layout": "background",
+						"overlay_opacity": 0,
+						"color_palette": "dark",
+						"button_color_palette": "accent",
+						"text_position": "text-center",
+						"title_size": "h1",
+						"title": "",
+						"text": "",
+						"link_text": "",
+						"link_url": "shopify://collections/halloween",
+						"show_link": false,
+						"image_mobile": "shopify://shop_images/halloween_main_splash_mob_smaller.webp",
+						"title_size_mobile": "mobile-size-18"
+					}
+				},
+				"ee547db4-a2a3-479a-8e4c-a59e518bce2e": {
+					"type": "slide",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/interior_design_smaller.jpg",
+						"layout": "background",
+						"overlay_opacity": 30,
+						"color_palette": "dark",
+						"button_color_palette": "accent",
+						"text_position": "text-center",
+						"title_size": "h1",
+						"title": "Great Products, Low Prices",
+						"text": "<p>Need to liven up your living space? Try out some of our offers!</p>",
+						"link_text": "View Collection",
+						"link_url": "shopify://pages/furniture-home",
+						"show_link": false,
+						"title_size_mobile": "mobile-size-18"
+					}
+				}
+			},
+			"block_order": [
+				"d176b41e-e5b5-49d9-a201-1fa9deffee42",
+				"template--20133140267325__ccc0461f-c8d9-4f52-8e95-eedeb532ced4-slide-1",
+				"47247d1c-77f0-4cec-9f14-cd0434e4c32b",
+				"ee547db4-a2a3-479a-8e4c-a59e518bce2e"
+			],
+			"settings": {
+				"height": "m",
+				"width": "wide",
+				"autoplay": true,
+				"autoplay_seconds": 4,
+				"enable_controls": true,
+				"height_mobile": "s",
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"16953748228ac94bc5": {
+			"type": "apps",
+			"blocks": {
+				"69e6e51d-bc6c-4733-8840-28bc33d292be": {
+					"type": "shopify://apps/klarna-on-site-messaging/blocks/app-block/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+					"disabled": true,
+					"settings": {
+						"data_key": "top-strip-promotion-auto-size",
+						"locale_option": "geolocation",
+						"locale_fallback": "",
+						"theme": "light",
+						"topPadding": "0",
+						"bottomPadding": "30",
+						"messagePrefix": ""
+					}
+				}
+			},
+			"block_order": ["69e6e51d-bc6c-4733-8840-28bc33d292be"],
+			"custom_css": [],
+			"settings": {}
+		},
+		"f2b1748b-8db7-40ac-87a6-33926df2823e": {
+			"type": "section-gallery",
+			"blocks": {
+				"9fc0e35a-f92e-4d1d-a5ea-98578f761326": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/workwear_collection.webp",
+						"overlay_opacity": 0,
+						"color_palette": "white",
+						"button_color_palette": "accent",
+						"text_position": "text-start",
+						"title_size": "h1",
+						"title": "",
+						"text": "",
+						"link_text": "",
+						"link_url": "shopify://collections/workwear",
+						"show_link": false,
+						"image_mobile": "shopify://shop_images/workwear_collection_mobile_smaller.webp",
+						"title_size_mobile": "mobile-size-16"
+					}
+				}
+			},
+			"block_order": ["9fc0e35a-f92e-4d1d-a5ea-98578f761326"],
+			"settings": {
+				"items_layout": "playful-grid",
+				"items_width": 2,
+				"height": "size-s",
+				"width": "boxed",
+				"space_between": 16,
+				"image_zoom": false,
+				"image_move": false,
+				"show_content_on_hover": false,
+				"content_on_hover_color_palette": "dark",
+				"layout_mobile": "rows",
+				"mobile_height": "size-m",
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"1660291161fe2caafb": {
+			"type": "section-gallery",
+			"blocks": {
+				"1660291161347c9da8-0": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/main_02_smaller.jpg",
+						"overlay_opacity": 0,
+						"color_palette": "white",
+						"button_color_palette": "accent",
+						"text_position": "text-start",
+						"title_size": "h1",
+						"title": "Weekly Offers",
+						"text": "<p>Need a <strong>great </strong>value deal?</p>",
+						"link_text": "Find Deals",
+						"link_url": "shopify://collections/weekly-offers",
+						"show_link": false,
+						"title_size_mobile": "mobile-size-18"
+					}
+				},
+				"f66c549d-ba7d-4a7f-b1cf-1d1dd0a9d0a9": {
+					"type": "image",
+					"disabled": true,
+					"settings": {
+						"image": "shopify://shop_images/furniture_bedroom_smaller.jpg",
+						"overlay_opacity": 20,
+						"color_palette": "black",
+						"button_color_palette": "white",
+						"text_position": "align-bottom text-center",
+						"title_size": "h2",
+						"title": "Furniture",
+						"text": "",
+						"link_text": "Discover offers",
+						"link_url": "shopify://pages/furniture-home",
+						"show_link": true,
+						"title_size_mobile": "mobile-size-18"
+					}
+				},
+				"1660291161347c9da8-1": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/sneakers_smaller.jpg",
+						"overlay_opacity": 0,
+						"color_palette": "black",
+						"button_color_palette": "white",
+						"text_position": "align-bottom text-center",
+						"title_size": "h2",
+						"title": "Shoes",
+						"text": "",
+						"link_text": "Discover offers",
+						"link_url": "shopify://collections/shoes",
+						"show_link": true,
+						"title_size_mobile": "mobile-size-18"
+					}
+				},
+				"1660291161347c9da8-2": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/black-leather-bag-2021-12-13-19-53-23-utc.jpg",
+						"overlay_opacity": 20,
+						"color_palette": "black",
+						"button_color_palette": "white",
+						"text_position": "align-bottom text-center",
+						"title_size": "h2",
+						"title": "Clothing",
+						"text": "",
+						"link_text": "Discover offers",
+						"link_url": "shopify://collections/clothing",
+						"show_link": true,
+						"title_size_mobile": "mobile-size-18"
+					}
+				}
+			},
+			"block_order": [
+				"1660291161347c9da8-0",
+				"f66c549d-ba7d-4a7f-b1cf-1d1dd0a9d0a9",
+				"1660291161347c9da8-1",
+				"1660291161347c9da8-2"
+			],
+			"settings": {
+				"items_layout": "playful-grid",
+				"items_width": 2,
+				"height": "size-s",
+				"width": "boxed",
+				"space_between": 16,
+				"image_zoom": true,
+				"image_move": false,
+				"show_content_on_hover": false,
+				"content_on_hover_color_palette": "dark",
+				"layout_mobile": "rows",
+				"mobile_height": "size-s",
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"16602912025c583cc8": {
+			"type": "section-featured-collection",
+			"settings": {
+				"collection": "weekly-offers",
+				"limit": 5,
+				"number_of_items": 5,
+				"text_alignment": "start",
+				"title_size": "h1",
+				"title": "Trending Products",
+				"text": "",
+				"link_text": "",
+				"button_color_palette": "accent",
+				"show_link": true,
+				"enable_quick_buy_desktop": false,
+				"enable_quick_buy_mobile": false,
+				"enable_quick_buy_drawer": false,
+				"enable_quick_buy_qty_selector": true,
+				"enable_color_picker": false,
+				"enable_quick_buy_compact": false,
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"1660291186859914cb": {
+			"type": "section-usp-bar",
+			"blocks": {
+				"166029118628eefa48-0": {
+					"type": "usp",
+					"settings": {
+						"usp": "<h3>JPC Outlet introduces Warehouse Day</h3>"
+					}
+				},
+				"8f03d32e-91a8-463c-88a3-d9d88831a108": {
+					"type": "usp",
+					"settings": {
+						"usp": "<h3>Great deals, no delivery!</h3>"
+					}
+				},
+				"166029118628eefa48-1": {
+					"type": "usp",
+					"settings": {
+						"usp": "<h3>August 26th, 10am - 2pm</h3>"
+					}
+				},
+				"166029118628eefa48-2": {
+					"type": "usp",
+					"settings": {
+						"usp": "<h3>Click here to find out more</h3>"
+					}
+				}
+			},
+			"block_order": [
+				"166029118628eefa48-0",
+				"8f03d32e-91a8-463c-88a3-d9d88831a108",
+				"166029118628eefa48-1",
+				"166029118628eefa48-2"
+			],
+			"disabled": true,
+			"settings": {
+				"color_palette": "accent",
+				"layout": "slider",
+				"autoplay": true,
+				"autoplay_seconds": 2,
+				"show_arrows": false,
+				"spacing_desktop": 60,
+				"spacing_mobile": 60
+			}
+		},
+		"1662644676f2b34df9": {
+			"type": "section-gallery",
+			"blocks": {
+				"166264467598e706b2-1": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/DSC_0400-2_smaller.jpg",
+						"overlay_opacity": 15,
+						"color_palette": "black",
+						"button_color_palette": "white",
+						"text_position": "text-center",
+						"title_size": "h2",
+						"title": "Home & Living",
+						"text": "<p>Everything to make a house a home</p>",
+						"link_text": "Shop now",
+						"link_url": "shopify://collections/home-living",
+						"show_link": true,
+						"title_size_mobile": "mobile-size-18"
+					}
+				},
+				"166264467598e706b2-2": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/outdoor_01_smaller.jpg",
+						"overlay_opacity": 0,
+						"color_palette": "black",
+						"button_color_palette": "white",
+						"text_position": "text-center",
+						"title_size": "h2",
+						"title": "Outdoors",
+						"text": "<p>Need an adventure?</p>",
+						"link_text": "Shop now",
+						"link_url": "shopify://collections/outdoors",
+						"show_link": true,
+						"title_size_mobile": "mobile-size-18"
+					}
+				},
+				"166264467598e706b2-0": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/fitness_01_smaller.jpg",
+						"overlay_opacity": 0,
+						"color_palette": "black",
+						"button_color_palette": "accent",
+						"text_position": "text-center",
+						"title_size": "h1",
+						"title": "Fitness",
+						"text": "<p>Want to start your fitness journey? Start here!</p>",
+						"link_text": "Discover Now",
+						"link_url": "shopify://collections/fitness",
+						"show_link": false,
+						"title_size_mobile": "mobile-size-18"
+					}
+				}
+			},
+			"block_order": [
+				"166264467598e706b2-1",
+				"166264467598e706b2-2",
+				"166264467598e706b2-0"
+			],
+			"disabled": true,
+			"settings": {
+				"items_layout": "playful-grid-inv",
+				"items_width": 2,
+				"height": "size-s",
+				"width": "boxed",
+				"space_between": 16,
+				"image_zoom": true,
+				"image_move": false,
+				"show_content_on_hover": false,
+				"content_on_hover_color_palette": "dark",
+				"layout_mobile": "rows",
+				"mobile_height": "size-s",
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"ba670711-6a5d-4b6b-9541-b20c3e795c5e": {
+			"type": "section-rich-text",
+			"blocks": {
+				"template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-title-1": {
+					"type": "title",
+					"settings": {
+						"title_size": "size-50",
+						"title": "Furniture Bundles Now Available"
+					}
+				},
+				"template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-content-1": {
+					"type": "content",
+					"settings": {
+						"page": "",
+						"text": "<p>We've released some great value furniture bundles, allowing you to redecorate for even cheaper! Check them out below, or check your favourite pieces to see if they're bundled!</p>"
+					}
+				},
+				"template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-button-1": {
+					"type": "button",
+					"settings": {
+						"link_text": "Visit Bundles",
+						"link_url": "shopify://pages/furniture-bundles",
+						"button_color_palette": "accent"
+					}
+				}
+			},
+			"block_order": [
+				"template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-title-1",
+				"template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-content-1",
+				"template--21242383171901__ba670711-6a5d-4b6b-9541-b20c3e795c5e-button-1"
+			],
+			"settings": {
+				"color_palette": "white",
+				"text_alignment": "center",
+				"height": "size-s",
+				"width": "wide",
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"16605537948e81aa7a": {
+			"type": "section-image-with-products",
+			"settings": {
+				"image": "shopify://shop_images/DSC_0262-2_smaller_f23002e6-0b4d-421e-b93f-0674597a3586.jpg",
+				"overlay_opacity": 30,
+				"color_palette": "black",
+				"button_color_palette": "white",
+				"layout": "image-left",
+				"products": [
+					"betty-polished-edge-mirror-61cm-x-152cm",
+					"archie-gold-freestanding-mirror-179cm-x-110cm",
+					"francesca-polished-edge-mirror-61cm-x-152cm"
+				],
+				"text_position": "text-center",
+				"title_size": "h1",
+				"title": "Upgrading your mirror game?",
+				"text": "<p>We have a collection of premium mirrors to give your home the boost it deserves.</p>",
+				"link_text": "See Our Mirrors",
+				"link_url": "shopify://collections/mirrors",
+				"show_link": true,
+				"enable_quick_buy_desktop": true,
+				"enable_quick_buy_mobile": true,
+				"enable_quick_buy_drawer": false,
+				"enable_quick_buy_qty_selector": true,
+				"enable_color_picker": false,
+				"enable_quick_buy_compact": true,
+				"width_mobile": "boxed",
+				"mobile_height": "size-s",
+				"title_size_mobile": "mobile-size-18",
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"1660291177d9f45101": {
+			"type": "section-collection-list",
+			"disabled": true,
+			"settings": {
+				"collections": [],
+				"image_ratio": "square",
+				"fill_images": true,
+				"layout": "slider",
+				"number_of_items": 5,
+				"text_alignment": "start",
+				"title_size": "h1",
+				"title": "Collection list",
+				"link_text": "View all",
+				"link_url": "shopify://collections",
+				"button_color_palette": "accent",
+				"show_link": true,
+				"collection_title_size": "p",
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"1662644641662a3424": {
+			"type": "section-promo-gallery",
+			"blocks": {
+				"1662644641f8605a6c-1": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/returned_splash_smaller.webp",
+						"overlay_opacity": 0,
+						"color_palette": "white",
+						"button_color_palette": "accent",
+						"text_position": "text-center",
+						"title_size": "h2",
+						"title": "Returned & Damaged Items",
+						"text": "<p>We offer even greater reduced prices on things that aren't quite perfect, whether it's ripped packaging or a scratched surface.</p>",
+						"link_text": "Visit Collection",
+						"link_url": "shopify://collections/returned-damaged",
+						"show_link": false,
+						"title_size_mobile": "mobile-size-18"
+					}
+				},
+				"1662644641f8605a6c-0": {
+					"type": "image",
+					"settings": {
+						"image": "shopify://shop_images/sale_bag_smaller.jpg",
+						"overlay_opacity": 0,
+						"color_palette": "white",
+						"button_color_palette": "accent",
+						"text_position": "text-center",
+						"title_size": "h2",
+						"title": "Furniture Sale",
+						"text": "<p>Buy 2 pieces from the furniture collection, receive 10% off!</p>",
+						"link_text": "Visit Collection",
+						"link_url": "shopify://collections/furniture",
+						"show_link": false,
+						"title_size_mobile": "mobile-size-18"
+					}
+				}
+			},
+			"block_order": ["1662644641f8605a6c-1", "1662644641f8605a6c-0"],
+			"settings": {
+				"items_width": 3,
+				"width": "boxed",
+				"space_between": 16,
+				"image_zoom": true,
+				"layout_mobile": "rows",
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"12669de4-b9fc-4a62-ac06-2ae145ea6370": {
+			"type": "section-featured-collection",
+			"settings": {
+				"collection": "new-in-stock",
+				"limit": 5,
+				"number_of_items": 5,
+				"text_alignment": "start",
+				"title_size": "h1",
+				"title": "New to Outlet Online",
+				"text": "",
+				"link_text": "",
+				"button_color_palette": "accent",
+				"show_link": true,
+				"enable_quick_buy_desktop": false,
+				"enable_quick_buy_mobile": false,
+				"enable_quick_buy_drawer": false,
+				"enable_quick_buy_qty_selector": true,
+				"enable_color_picker": false,
+				"enable_quick_buy_compact": false,
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"166029123538307d80": {
+			"type": "section-blog-posts",
+			"disabled": true,
+			"settings": {
+				"blog": "",
+				"number_of_items": 3,
+				"text_alignment": "start",
+				"title_size": "h1",
+				"title": "Blog posts",
+				"link_text": "Button",
+				"link_url": "",
+				"button_color_palette": "accent",
+				"show_link": false,
+				"show_image": true,
+				"show_date": true,
+				"show_author": true,
+				"show_excerpt": false,
+				"button_color_palette_post": "accent",
+				"show_link_post": true,
+				"spacing_desktop": 50,
+				"spacing_mobile": 30
+			}
+		},
+		"845ceaa8-f10d-4999-a6d6-83502db46aec": {
+			"type": "section-usp-bar",
+			"blocks": {
+				"87b4b4cd-eebe-46ef-b448-5fb9ec0a82cc": {
+					"type": "usp",
+					"settings": {
+						"usp": "<p>Everything shipped within 24 hours</p>"
+					}
+				},
+				"d557b6ee-cb70-4f79-a0e5-7f1b54ee644c": {
+					"type": "usp",
+					"settings": {
+						"usp": "<p>9am-5pm Customer Service </p>"
+					}
+				},
+				"e7c1a6ee-088f-41ef-afce-c73f1c6d64ce": {
+					"type": "usp",
+					"settings": {
+						"usp": "<p>Shipping to anywhere in Mainland UK</p>"
+					}
+				}
+			},
+			"block_order": [
+				"87b4b4cd-eebe-46ef-b448-5fb9ec0a82cc",
+				"d557b6ee-cb70-4f79-a0e5-7f1b54ee644c",
+				"e7c1a6ee-088f-41ef-afce-c73f1c6d64ce"
+			],
+			"custom_css": [],
+			"settings": {
+				"color_palette": "light",
+				"layout": "rows",
+				"autoplay": false,
+				"autoplay_seconds": 3,
+				"show_arrows": false,
+				"spacing_desktop": 0,
+				"spacing_mobile": 0
+			}
+		},
+		"1695305678c7951965": {
+			"type": "apps",
+			"settings": {}
+		}
+	},
+	"order": [
+		"ccc0461f-c8d9-4f52-8e95-eedeb532ced4",
+		"16953748228ac94bc5",
+		"f2b1748b-8db7-40ac-87a6-33926df2823e",
+		"1660291161fe2caafb",
+		"16602912025c583cc8",
+		"1660291186859914cb",
+		"1662644676f2b34df9",
+		"ba670711-6a5d-4b6b-9541-b20c3e795c5e",
+		"16605537948e81aa7a",
+		"1660291177d9f45101",
+		"1662644641662a3424",
+		"12669de4-b9fc-4a62-ac06-2ae145ea6370",
+		"166029123538307d80",
+		"845ceaa8-f10d-4999-a6d6-83502db46aec",
+		"1695305678c7951965"
+	]
 }

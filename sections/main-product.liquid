@@ -226,17 +226,23 @@
                 </li>
             {%- endfor -%}
         </ul>
-        {%- if has_pros_and_cons == false and has_specs == false -%}
+        {%- if has_pros_and_cons == false -%}
             {%- if section.settings.show_product_description and product.description != empty -%}
                 <footer class="m6tb static desktop-only">
-                    <nav class="hidden">
-                        <ul>
-                            <li class="active"><a href="#section-info">{{ 'product.description' | t }}</a></li>
-                        </ul>
+                    <nav>
+                      <ul id="product-tabs-ul" class="product-tabs">
+                          <li class="tab-active product-tab"><a id="tab-info-tab" onclick="changeProductTab('tab-info-tab')" data-id="tab-info">Description</a></li>
+                          {%- if has_specs == true -%}
+                            <li class="product-tab"><a id="tab-specification-tab" onclick="changeProductTab('tab-specification-tab')" data-id="tab-specification">Specifications</a></li>
+                          {%- endif -%}
+                          {%- if has_seller == true -%}
+                            <li class="product-tab"><a id="tab-seller-tab" onclick="changeProductTab('tab-seller-tab')" data-id="tab-seller">About the Seller</a></li>
+                          {%- endif -%}
+                      </ul>
                     </nav>
                     <div>
-                        <div id="section-info">
-                            <h2 class="mobile-hide">{{ 'product.description' | t }}</h2>
+                        <div id="tab-info" class="product-tab-content tab-active">
+                            {% comment %} <h2 class="mobile-hide">Description</h2> {% endcomment %}
                             {%- if section.settings.product_description_enable_read_more -%}
                                 <div class="m6lm">
                                     {{ product.description }}
@@ -246,7 +252,42 @@
                                 {{ product.description }}
                             {%- endif -%}
                         </div>
-                    </div>
+                        {%- if has_specs == true -%}
+                          <div id="tab-specification" class="product-tab-content">
+                            <ul class="l4if">
+                              {%- for spec in specs -%}
+                                  {%- assign spec_name = spec | split: ':' | first | strip -%}
+                                  {%- assign spec_value = spec | split: ':' | last | strip -%}
+                                  {%- if spec_name != empty -%}
+                                      <li {% if specs.size > 9 and forloop.index > 9 %}class="hidden"{% endif %}>
+                                          <span>{{ spec_name | remove: '<p>' | remove: '</p>' }}:</span> {{ spec_value | remove: '<p>' | remove: '</p>' }}
+                                      </li>
+                                  {%- endif -%}
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                        {%- endif -%}
+                        {%- if has_seller == true -%}
+                          <div id="tab-seller" class="product-tab-content">
+                            {% comment %} <h3 class="mobile-hide">{{ product_brand.brand_name }}</h3> {% endcomment %}
+                            <div class="brand-info">
+                              <div class="brand-info-logo">
+                                <picture>
+                                  <img class="no-pl-px" data-src="{{ product_brand.brand_logo | image_url: height: 200 }}" alt="{{ product_brand.brand_name }}">
+                                </picture>
+                              </div>
+                              <div class="brand-info-desc">
+                                <div class="">
+                                  {{ product_brand.description }}
+                                </div>
+                              </div>
+                              <div class="brand-info-button">
+                                <p class="link-btn button-palette-accent"><a href="{{ brand_collection.url }}">See Collection</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        {%- endif -%}
+                    </div> 
                 </footer>
             {%- endif %}
         {%- endif %}
@@ -960,6 +1001,23 @@
                         {%- else -%}
                             {{ product.description }}
                         {%- endif -%}
+                        
+                        <div class="brand-info">
+                          <h3>About the Seller</h3>
+                          <div class="brand-info-logo">
+                            <picture>
+                              <img class="no-pl-px" data-src="{{ product_brand.brand_logo }}" alt="{{ product_brand.brand_name }}">
+                            </picture>
+                          </div>
+                          <div class="brand-info-desc">
+                            <div class="">
+                              {{ product_brand.description }}
+                            </div>
+                          </div>
+                          <div class="brand-info-button">
+                            <p class="link-btn button-palette-accent"><a href="{{ brand_collection.url }}">See Collection</a></p>
+                          </div>
+                        </div>
                     </div>
                 </div>
             </footer>
@@ -968,7 +1026,7 @@
 </article>
 
 {%- if has_pros_and_cons or has_specs -%}
-    <div class="m6tb static">
+    <div class="m6tb static mobile-only">
         <nav class="hidden">
             <ul>
                 <li class="active"><a href="#section-info">{{ 'product.description' | t }}</a></li>
