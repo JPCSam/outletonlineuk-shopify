@@ -59,7 +59,7 @@
     "color_swatch_name": "Colour",
     "enable_free_shipping": false,
     "free_shipping_amount": 0,
-    "product_deliverytime_in_stock": "",
+    "product_deliverytime_in_stock": "custom.delivery_time",
     "product_deliverytime_not_in_stock": "",
     "shipping_timer_show_from": "08",
     "shipping_timer_enable_1": false,
