@@ -251,18 +251,20 @@
                             {%- else -%}
                                 {{ product.description }}
                             {%- endif -%}
-                            <h2 class="mobile-hide">Specification</h2>
-                            <ul class="l4if">
-                              {%- for spec in specs -%}
-                                  {%- assign spec_name = spec | split: ':' | first | strip -%}
-                                  {%- assign spec_value = spec | split: ':' | last | strip -%}
-                                  {%- if spec_name != empty -%}
-                                      <li {% if specs.size > 9 and forloop.index > 9 %}class="hidden"{% endif %}>
-                                          <span>{{ spec_name | remove: '<p>' | remove: '</p>' }}:</span> {{ spec_value | remove: '<p>' | remove: '</p>' }}
-                                      </li>
-                                  {%- endif -%}
-                              {%- endfor -%}
-                            </ul>
+                            {%- if has_specs == true -%}
+                              <h2 class="mobile-hide">Specification</h2>
+                              <ul class="l4if">
+                                {%- for spec in specs -%}
+                                    {%- assign spec_name = spec | split: ':' | first | strip -%}
+                                    {%- assign spec_value = spec | split: ':' | last | strip -%}
+                                    {%- if spec_name != empty -%}
+                                        <li {% if specs.size > 9 and forloop.index > 9 %}class="hidden"{% endif %}>
+                                            <span>{{ spec_name | remove: '<p>' | remove: '</p>' }}:</span> {{ spec_value | remove: '<p>' | remove: '</p>' }}
+                                        </li>
+                                    {%- endif -%}
+                                {%- endfor -%}
+                              </ul>
+                            {%- endif -%}
                         </div>
                         {% comment %} {%- if has_specs == true -%}
                           <div id="tab-specification" class="product-tab-content">
