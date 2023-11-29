@@ -65,7 +65,7 @@
     "default_product_deliverytime_in_stock": "In stock",
     "default_product_deliverytime_not_in_stock": "Out of stock",
     "product_deliverytime_info": "",
-    "default_product_deliverytime_info": "<p>Only to be used as a guide - actual delivery times might be longer for unforeseen reasons.<\/p>",
+    "default_product_deliverytime_info": "<p>Orders supplied by Outlet Online will be dispatched same day if ordered before 1pm, Monday-Thursday. <\/p><p>Orders from other suppliers might take longer, depending on the processing time. Please follow the delivery time suggestion.<\/p><p><em>Only to be used as a guide - actual delivery times might be longer.<\/em><\/p>",
     "show_deliverytime_always": true,
     "shipping_timer_show_until": "13:00",
     "shipping_timer_show_from": "08",
