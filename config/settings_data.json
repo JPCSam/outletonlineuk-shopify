@@ -45,6 +45,7 @@
     "enable_cart_drawer_upsell_complementary": false,
     "search_drawer_show_price": false,
     "productcards_text_alignment": "left",
+    "show_sale_label": false,
     "sale_label_price": "percentage",
     "show_stock_label": false,
     "stock_label_qty": 2,
