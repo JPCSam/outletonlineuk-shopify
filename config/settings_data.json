@@ -64,7 +64,7 @@
     "product_deliverytime_not_in_stock": "",
     "default_product_deliverytime_in_stock": "In stock",
     "default_product_deliverytime_not_in_stock": "Out of stock",
-    "product_deliverytime_info": "custom.delivery_time",
+    "product_deliverytime_info": "",
     "default_product_deliverytime_info": "<p>Only to be used as a guide - actual delivery times might be longer for unforeseen reasons.<\/p>",
     "show_deliverytime_always": true,
     "shipping_timer_show_from": "08",
