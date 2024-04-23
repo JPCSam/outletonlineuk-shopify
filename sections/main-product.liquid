@@ -230,7 +230,7 @@
             {%- if section.settings.show_product_description and product.description != empty -%}
                 <footer class="m6tb static desktop-only">
                     <nav>
-                      {% comment %} <ul id="product-tabs-ul" class="product-tabs">
+                      <ul id="product-tabs-ul" class="product-tabs">
                           <li class="tab-active product-tab"><a id="tab-info-tab" onclick="changeProductTab('tab-info-tab')" data-id="tab-info">Description</a></li>
                           {%- if has_specs == true -%}
                             <li class="product-tab"><a id="tab-specification-tab" onclick="changeProductTab('tab-specification-tab')" data-id="tab-specification">Specifications</a></li>
@@ -238,7 +238,7 @@
                           {%- if has_seller == true -%}
                             <li class="product-tab"><a id="tab-seller-tab" onclick="changeProductTab('tab-seller-tab')" data-id="tab-seller">About the Seller</a></li>
                           {%- endif -%}
-                      </ul> {% endcomment %}
+                      </ul>
                     </nav>
                     <div>
                         <div id="tab-info" class="product-tab-content tab-active">
